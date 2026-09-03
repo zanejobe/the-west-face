@@ -198,7 +198,7 @@ def build() -> Path:
     <div class="hero-inner">
       <p class="hero-brand">The West Face</p>
       <p class="hero-sub">A research history of the Guadalupe Mountains — from deep time to today.</p>
-      <p class="hero-note">{len(events)} events · from <code>data/events.csv</code></p>
+      <p class="hero-note">{len(events)} events · <a class="hero-repo" href="https://github.com/zanejobe/the-west-face">GitHub repo</a></p>
     </div>
   </header>
 
@@ -219,7 +219,7 @@ def build() -> Path:
   </main>
 
   <footer class="site-foot">
-    <p>The West Face · edit <code>data/events.csv</code> then run <code>python src/build_html.py</code></p>
+    <p><a href="https://github.com/zanejobe/the-west-face">GitHub repo</a> · edit <code>data/events.csv</code> then run <code>python src/build_html.py</code></p>
   </footer>
 
   <script src="timeline.js"></script>

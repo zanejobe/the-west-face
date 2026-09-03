@@ -103,6 +103,16 @@ code {
   opacity: 0.7;
 }
 
+.hero-repo {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.hero-repo:hover {
+  opacity: 1;
+}
+
 .filters {
   position: sticky;
   top: 0;
@@ -302,6 +312,11 @@ code {
   border-top: 1px solid var(--line);
   font-size: 0.9rem;
   color: rgba(26, 28, 24, 0.7);
+}
+
+.site-foot a {
+  color: var(--shade);
+  font-weight: 600;
 }
 
 @media (max-width: 640px) {
