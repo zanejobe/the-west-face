@@ -20,7 +20,7 @@ branches:
 
   - id: basin_fill
     label: Basin fill
-    description: Delaware Mountain Group and related basin-floor systems (Brushy Canyon, Cherry, Bell Canyon).
+    description: Basin-floor / DMG-style research themes. Tag specific units in `formations` (e.g. brushy_canyon).
 
   - id: sedimentology
     label: Sedimentology

@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The West Face — Guadalupe Mountains research timeline</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-veil"></div>
+    <div class="hero-inner">
+      <p class="hero-brand">The West Face</p>
+      <p class="hero-sub">A research history of the Guadalupe Mountains — from deep time to today.</p>
+      <p class="hero-note">Mock build from <code>data/events.csv</code> · 26 events</p>
+    </div>
+  </header>
+
+  <aside class="filters" aria-label="Timeline filters">
+    <details open>
+      <summary>Filter by research branch</summary>
+      <div class="filter-grid"><label class="filter"><input type="checkbox" name="branch" value="basin_fill" checked> Basin fill</label>
+<label class="filter"><input type="checkbox" name="branch" value="education" checked> Education</label>
+<label class="filter"><input type="checkbox" name="branch" value="mapping" checked> Mapping</label>
+<label class="filter"><input type="checkbox" name="branch" value="paleontology" checked> Paleontology</label>
+<label class="filter"><input type="checkbox" name="branch" value="park_science" checked> Park science</label>
+<label class="filter"><input type="checkbox" name="branch" value="petroleum" checked> Petroleum</label>
+<label class="filter"><input type="checkbox" name="branch" value="reef_and_shelf" checked> Reef and shelf</label>
+<label class="filter"><input type="checkbox" name="branch" value="sedimentology" checked> Sedimentology</label>
+<label class="filter"><input type="checkbox" name="branch" value="stratigraphy" checked> Stratigraphy</label></div>
+    </details>
+    <details open>
+      <summary>Filter by formation</summary>
+      <div class="filter-grid"><label class="filter"><input type="checkbox" name="formation" value="_none_" checked> No formation tag</label>
+<label class="filter"><input type="checkbox" name="formation" value="bell_canyon" checked> Bell Canyon Formation</label>
+<label class="filter"><input type="checkbox" name="formation" value="brushy_canyon" checked> Brushy Canyon Formation</label>
+<label class="filter"><input type="checkbox" name="formation" value="capitan" checked> Capitan Limestone</label>
+<label class="filter"><input type="checkbox" name="formation" value="cherry_canyon" checked> Cherry Canyon Formation</label>
+<label class="filter"><input type="checkbox" name="formation" value="cutoff" checked> Cutoff Formation</label>
+<label class="filter"><input type="checkbox" name="formation" value="delaware_mountain_group" checked> Delaware Mountain Group</label></div>
+    </details>
+    <p class="filter-status"><span id="visible-count">26</span> events shown</p>
+  </aside>
+
+  <main class="timeline">
+    
+            <section class="era era-geologic" id="permian_deposition">
+              <header class="era-header">
+                <p class="era-kicker">Act I · Geologic time</p>
+                <h2>Permian deposition</h2>
+                <p class="era-desc">Placeholder — add deep-time rows to events.csv for Brushy Canyon / Capitan depositional landmarks.</p>
+              </header>
+              <div class="hinge">
+                <p>From rock time to research time</p>
+              </div>
+            </section>
+            
+            <section class="era" id="early_exploration" data-timescale="human">
+              <header class="era-header">
+                <p class="era-kicker">Act II · Research time</p>
+                <h2>Early exploration</h2>
+                <p class="era-desc">Reconnaissance and first systematic observations.</p>
+              </header>
+              <div class="era-events">
+    <article class="event" style="--accent:#4a5d4e"
+      data-branches="paleontology mapping"
+      data-formations="_none_"
+      data-importance="3">
+      <div class="event-rail" aria-hidden="true"></div>
+      <div class="event-body">
+        <div class="event-meta">
+          <time class="event-year">1858</time>
+          <div class="event-chips"><span class="chip chip-branch" style="--chip:#4a5d4e">Paleontology</span><span class="chip chip-branch" style="--chip:#3d5a4c">Mapping</span></div>
+        </div>
+        <h3 class="event-title">Shumard — Permian fossils from the Guadalupes</h3>
+        <p class="event-summary">G. G. Shumard visited the Texas Guadalupes with Capt. John Pope&#x27;s survey; fossils he collected were identified by B. F. Shumard as resembling Permian faunas of Europe — among the earliest geologic observations of the range.</p>
+        <p class="event-people">G. G. Shumard, B. F. Shumard</p>
+        <p class="event-cite">Shumard, B.F., 1858, Notice of fossils from the Permian strata of Texas and New Mexico obtained by the United States expedition under Capt. John Pope…: Transactions of the Academy of Science of St. Louis, v. 1 (volume date often given as 1860). Context summarized in Hayes (1964, USGS PP 446, Introduction).</p>
+      </div>
+    </article>
+    
+
+    <article class="event" style="--accent:#5c4a3a"
+      data-branches="mapping stratigraphy"
+      data-formations="delaware_mountain_group capitan"
+      data-importance="3">
+      <div class="event-rail" aria-hidden="true"></div>
+      <div class="event-body">
+        <div class="event-meta">
+          <time class="event-year">1904</time>
+          <div class="event-chips"><span class="chip chip-branch" style="--chip:#3d5a4c">Mapping</span><span class="chip chip-branch" style="--chip:#5c4a3a">Stratigraphy</span><span class="chip chip-formation">Delaware Mountain Group</span><span class="chip chip-formation">Capitan Limestone</span></div>
+        </div>
+        <h3 class="event-title">Richardson names Delaware Mountain and Capitan formations</h3>
+        <p class="event-summary">G. B. Richardson&#x27;s Trans-Pecos reconnaissance names the Delaware Mountain Formation (sandstone and limestone of the Delaware and Guadalupe Mountains) and Capitan Limestone — the parent nomenclature later split into the Delaware Mountain Group.</p>
+        <p class="event-people">G. B. Richardson</p>
+        <p class="event-cite">Richardson, G.B., 1904, Report of a reconnaissance in Trans-Pecos Texas north of the Texas and Pacific Railway: University of Texas Mineral Survey Bulletin 9, 119 p. (Geolex original reference for Delaware Mountain).</p>
+      </div>
+    </article>
+    
+
+    <article class="event" style="--accent:#4a5d4e"
+      data-branches="paleontology stratigraphy"
+      data-formations="delaware_mountain_group capitan"
+      data-importance="3">
+      <div class="event-rail" aria-hidden="true"></div>
+      <div class="event-body">
+        <div class="event-meta">
+          <time class="event-year">1908</time>
+          <div class="event-chips"><span class="chip chip-branch" style="--chip:#4a5d4e">Paleontology</span><span class="chip chip-branch" style="--chip:#5c4a3a">Stratigraphy</span><span class="chip chip-formation">Delaware Mountain Group</span><span class="chip chip-formation">Capitan Limestone</span></div>
+        </div>
+        <h3 class="event-title">Girty — USGS Professional Paper 58 The Guadalupian Fauna</h3>
+        <p class="event-summary">George H. Girty&#x27;s USGS Professional Paper 58 monographs fossils from Capitan and Delaware Mountain strata of the southern Guadalupe Mountains — the classic paleontologic baseline for Guadalupian faunas.</p>
+        <p class="event-people">George H. Girty</p>
+        <p class="event-cite">Girty, G.H., 1908, The Guadalupian Fauna: USGS Professional Paper 58, 651 p., https://doi.org/10.3133/pp58</p>
+      </div>
+    </article>
+    
+
+    <article class="event" style="--accent:#5c4a3a"
+      data-branches="mapping stratigraphy"
+      data-formations="delaware_mountain_group"
+      data-importance="2">
+      <div class="event-rail" aria-hidden="true"></div>
+      <div class="event-body">
+        <div class="event-meta">
+          <time class="event-year">1924</time>
+          <div class="event-chips"><span class="chip chip-branch" style="--chip:#3d5a4c">Mapping</span><span class="chip chip-branch" style="--chip:#5c4a3a">Stratigraphy</span><span class="chip chip-formation">Delaware Mountain Group</span></div>
+        </div>
+        <h3 class="event-title">Beede geologic map of part of West Texas</h3>
+        <p class="event-summary">BEG syntheses credit Beede (1924) with recognizing a lithologic tripartite character in Delaware Mountain sandstone that later underpinned King&#x27;s three-formation subdivision. Primary item is University of Texas Bulletin 2607.</p>
+        <p class="event-people">J. W. Beede</p>
+        <p class="event-cite">Beede, J.W., 1924, Geologic map of a part of West Texas: University of Texas Bulletin 2607. Tripartite role as summarized by BEG DMG synthesis (Dutton et al.).</p>
+      </div>
+    </article>
+    </div>
+            </section>
+            
+            <section class="era" id="usgs_mapping" data-timescale="human">
+              <header class="era-header">
+                <p class="era-kicker">Act II · Research time</p>
+                <h2>USGS mapping era</h2>
+                <p class="era-desc">Regional mapping and foundational Professional Papers (including King).</p>
+              </header>
+              <div class="era-events">
+    <article class="event" style="--accent:#5c4a3a"
+      data-branches="mapping stratigraphy basin_fill"
+      data-formations="brushy_canyon cherry_canyon bell_canyon delaware_mountain_group"
+      data-importance="3">
+      <div class="event-rail" aria-hidden="true"></div>
+      <div class="event-body">
+        <div class="event-meta">
+          <time class="event-year">1942</time>
+          <div class="event-chips"><span class="chip chip-branch" style="--chip:#3d5a4c">Mapping</span><span class="chip chip-branch" style="--chip:#5c4a3a">Stratigraphy</span><span class="chip chip-branch" style="--chip:#4a5560">Basin fill</span><span class="chip chip-formation">Brushy Canyon Formation</span><span class="chip chip-formation">Cherry Canyon Formation</span><span class="chip chip-formation">Bell Canyon Formation</span><span class="chip chip-formation">Delaware Mountain Group</span></div>
+        </div>
+        <h3 class="event-title">King — Brushy Cherry and Bell Canyon named</h3>
+        <p class="event-summary">P. B. King describes the Delaware Mountain Group and its Brushy Canyon, Cherry Canyon, and Bell Canyon Formations (names already credited to him in DeFord and Lloyd, 1940). Formal lithostratigraphic frame for the western escarpment and Delaware Basin fill.</p>
+        <p class="event-people">Philip B. King</p>
+        <p class="event-cite">King, P.B., 1942, Permian of west Texas and southeastern New Mexico: AAPG Bulletin, v. 26, no. 4, p. 535–763. See also DeFord, R.K., and Lloyd, E.R., 1940, AAPG Bulletin, v. 24, p. 1–14 (names credited to King).</p>
+      </div>
+    </article>
+    
+
+    <article class="event" style="--accent:#3d5a4c"
+      data-branches="mapping stratigraphy basin_fill"
+      data-formations="brushy_canyon delaware_mountain_group capitan"
+      data-importance="3">
+      <div class="event-rail" aria-hidden="true"></div>
+      <div class="event-body">
+        <div class="event-meta">
+          <time class="event-year">1948</time>
+          <div class="event-chips"><span class="chip chip-branch" style="--chip:#3d5a4c">Mapping</span><span class="chip chip-branch" style="--chip:#5c4a3a">Stratigraphy</span><span class="chip chip-branch" style="--chip:#4a5560">Basin fill</span><span class="chip chip-formation">Brushy Canyon Formation</span><span class="chip chip-formation">Delaware Mountain Group</span><span class="chip chip-formation">Capitan Limestone</span></div>
+        </div>
+        <h3 class="event-title">King — USGS Professional Paper 215 southern Guadalupes</h3>
+        <p class="event-summary">USGS Professional Paper 215 maps and describes the southern Guadalupe and adjacent Delaware Mountains Permian section, including Brushy Canyon stratigraphy and relations along the western escarpment.</p>
+        <p class="event-people">Philip B. King</p>
+        <p class="event-cite">King, P.B., 1948, Geology of the Southern Guadalupe Mountains, Texas: USGS Professional Paper 215, 183 p., https://doi.org/10.3133/pp215</p>
+      </div>
+    </article>
+    
+
+    <article class="event" style="--accent:#3d5a4c"
+      data-branches="mapping stratigraphy reef_and_shelf"
+      data-formations="delaware_mountain_group capitan brushy_canyon"
+      data-importance="2">
+      <div class="event-rail" aria-hidden="true"></div>
+      <div class="event-body">
+        <div class="event-meta">
+          <time class="event-year">1964</time>
+          <div class="event-chips"><span class="chip chip-branch" style="--chip:#3d5a4c">Mapping</span><span class="chip chip-branch" style="--chip:#5c4a3a">Stratigraphy</span><span class="chip chip-branch" style="--chip:#8a6a4a">Reef and shelf</span><span class="chip chip-formation">Delaware Mountain Group</span><span class="chip chip-formation">Capitan Limestone</span><span class="chip chip-formation">Brushy Canyon Formation</span></div>
+        </div>
+        <h3 class="event-title">Hayes — USGS Professional Paper 446 New Mexico Guadalupes</h3>
+        <p class="event-summary">USGS Professional Paper 446 maps Guadalupe Mountains geology in New Mexico and discusses Delaware Mountain Group / Capitan shelf–reef–basin relations north of King&#x27;s Texas map area.</p>
+        <p class="event-people">Philip T. Hayes</p>
+        <p class="event-cite">Hayes, P.T., 1964, Geology of the Guadalupe Mountains, New Mexico: USGS Professional Paper 446, 69 p., https://doi.org/10.3133/pp446</p>
+      </div>
+    </article>
+    </div>
+            </section>
+            
+            <section class="era" id="midcentury_frameworks" data-timescale="human">
+              <header class="era-header">
+                <p class="era-kicker">Act II · Research time</p>
+                <h2>Mid-century frameworks</h2>
+                <p class="era-desc">Stratigraphic refinement, sedimentology, and basin models.</p>
+              </header>
+              <div class="era-events">
+    <article class="event" style="--accent:#2f4f4f"
+      data-branches="sedimentology basin_fill"
+      data-formations="brushy_canyon"
+      data-importance="3">
+      <div class="event-rail" aria-hidden="true"></div>
+      <div class="event-body">
+        <div class="event-meta">
+          <time class="event-year">1974</time>
+          <div class="event-chips"><span class="chip chip-branch" style="--chip:#2f4f4f">Sedimentology</span><span class="chip chip-branch" style="--chip:#4a5560">Basin fill</span><span class="chip chip-formation">Brushy Canyon Formation</span></div>
+        </div>
+        <h3 class="event-title">Harms — Brushy Canyon deep-water density-current deposit</h3>
+        <p class="event-summary">J. C. Harms interprets the Brushy Canyon Formation as a deep-water density-current deposit (GSA Bulletin). Widely cited turning point in Brushy Canyon process models.</p>
+        <p class="event-people">John C. Harms</p>
+        <p class="event-cite">Harms, J.C., 1974, Brushy Canyon Formation, Texas: A deep-water density current deposit: Geological Society of America Bulletin, v. 85, p. 1763–1784.</p>
+      </div>
+    </article>
+    
+
+    <article class="event" style="--accent:#2f4f4f"
+      data-branches="sedimentology basin_fill petroleum"
+      data-formations="brushy_canyon bell_canyon delaware_mountain_group"
+      data-importance="2">
+      <div class="event-rail" aria-hidden="true"></div>
+      <div class="event-body">
+        <div class="event-meta">
+          <time class="event-year">1988</time>
+          <div class="event-chips"><span class="chip chip-branch" style="--chip:#2f4f4f">Sedimentology</span><span class="chip chip-branch" style="--chip:#4a5560">Basin fill</span><span class="chip chip-branch" style="--chip:#6b4423">Petroleum</span><span class="chip chip-formation">Brushy Canyon Formation</span><span class="chip chip-formation">Bell Canyon Formation</span><span class="chip chip-formation">Delaware Mountain Group</span></div>
+        </div>
+        <h3 class="event-title">Harms and Williamson — DMG saline density currents</h3>
+        <p class="event-summary">Harms and Williamson argue Delaware Mountain Group siltstones and channelized sandstones (including Brushy and Bell Canyon) were deposited by saline density currents in a density-stratified basin, contrasting with turbidity-current submarine-fan models.</p>
+        <p class="event-people">John C. Harms, Charles R. Williamson</p>
+        <p class="event-cite">Harms, J.C., and Williamson, C.R., 1988, Deep-water density current deposits of Delaware Mountain Group (Permian), Delaware Basin, Texas and New Mexico: AAPG Bulletin, v. 72, p. 299–317.</p>
+      </div>
+    </article>
+    </div>
+            </section>
+            
+            <section class="era" id="petroleum_surge" data-timescale="human">
+              <header class="era-header">
+                <p class="era-kicker">Act II · Research time</p>
+                <h2>Petroleum and basin research</h2>
+                <p class="era-desc">Delaware Basin industry and academic surge.</p>
+              </header>
+              <div class="era-events">
+    <article class="event" style="--accent:#2f4f4f"
+      data-branches="sedimentology basin_fill stratigraphy"
+      data-formations="brushy_canyon"
+      data-importance="3">
+      <div class="event-rail" aria-hidden="true"></div>
+      <div class="event-body">
+        <div class="event-meta">
+          <time class="event-year">1985</time>
+          <div class="event-chips"><span class="chip chip-branch" style="--chip:#2f4f4f">Sedimentology</span><span class="chip chip-branch" style="--chip:#4a5560">Basin fill</span><span class="chip chip-branch" style="--chip:#5c4a3a">Stratigraphy</span><span class="chip chip-formation">Brushy Canyon Formation</span></div>
+        </div>
+        <h3 class="event-title">Rossen M.S. thesis — Brushy Canyon onlap area</h3>
+        <p class="event-summary">Christine Rossen M.S. thesis on Brushy Canyon sedimentology in the Guadalupe Mountains onlap area (University of Wisconsin–Madison). Cited as foundational outcrop work preceding later Exxon publications.</p>
+        <p class="event-people">Christine Rossen</p>
+        <p class="event-cite">Rossen, C., 1985, Sedimentology of the Brushy Canyon Formation (Permian, Early Guadalupian) in the onlap area, Guadalupe Mountains, west Texas: M.S. thesis, University of Wisconsin–Madison, 314 p.</p>
+      </div>
+    </article>
+    
+
+    <article class="event" style="--accent:#2f4f4f"
+      data-branches="sedimentology stratigraphy basin_fill"
+      data-formations="brushy_canyon cherry_canyon"
+      data-importance="2">
+      <div class="event-rail" aria-hidden="true"></div>
+      <div class="event-body">
+        <div class="event-meta">
+          <time class="event-year">1987</time>
+          <div class="event-chips"><span class="chip chip-branch" style="--chip:#2f4f4f">Sedimentology</span><span class="chip chip-branch" style="--chip:#5c4a3a">Stratigraphy</span><span class="chip chip-branch" style="--chip:#4a5560">Basin fill</span><span class="chip chip-formation">Brushy Canyon Formation</span><span class="chip chip-formation">Cherry Canyon Formation</span></div>
+        </div>
+        <h3 class="event-title">Rossen and Sarg — 1987 AAPG abstract</h3>
+        <p class="event-summary">AAPG abstract on Brushy Canyon–Cherry Canyon Tongue sedimentology and regional correlation. Abstract favors turbidity currents over hypersaline density currents based on onlap geometry, channels, and shelfward correlation.</p>
+        <p class="event-people">Christine Rossen, J. F. Sarg</p>
+        <p class="event-cite">Rossen, C., and Sarg, J.F., 1987, Sedimentology and regional correlation of a basinally restricted deep-water siliciclastic wedge: Brushy Canyon Formation–Cherry Canyon Tongue (Lower Guadalupian), Delaware Basin: AAPG Bulletin, v. 71 (abstract).</p>
+      </div>
+    </article>
+    
+
+    <article class="event" style="--accent:#2f4f4f"
+      data-branches="sedimentology basin_fill"
+      data-formations="brushy_canyon"
+      data-importance="2">
+      <div class="event-rail" aria-hidden="true"></div>
+      <div class="event-body">
+        <div class="event-meta">
+          <time class="event-year">1995</time>
+          <div class="event-chips"><span class="chip chip-branch" style="--chip:#2f4f4f">Sedimentology</span><span class="chip chip-branch" style="--chip:#4a5560">Basin fill</span><span class="chip chip-formation">Brushy Canyon Formation</span></div>
+        </div>
+        <h3 class="event-title">Zelt and Rossen — Brushy Canyon in deep-water atlas</h3>
+        <p class="event-summary">Chapter documenting geometry and continuity of Brushy Canyon deep-water sandstones and siltstones along Guadalupe–Delaware Mountains outcrops.</p>
+        <p class="event-people">F. B. Zelt, Christine Rossen</p>
+        <p class="event-cite">Zelt, F.B., and Rossen, C., 1995, Geometry and continuity of deep-water sandstones and siltstones, Brushy Canyon Formation (Permian) Delaware Mountains, Texas, in Pickering, K.T., and others, eds., Atlas of Deep Water Environments: Springer.</p>
+      </div>
+    </article>
+    
+
+    <article class="event" style="--accent:#2f4f4f"
+      data-branches="sedimentology basin_fill petroleum education"
+      data-formations="brushy_canyon"
+      data-importance="3">
+      <div class="event-rail" aria-hidden="true"></div>
+      <div class="event-body">
+        <div class="event-meta">
+          <time class="event-year">1999</time>
+          <div class="event-chips"><span class="chip chip-branch" style="--chip:#2f4f4f">Sedimentology</span><span class="chip chip-branch" style="--chip:#4a5560">Basin fill</span><span class="chip chip-branch" style="--chip:#6b4423">Petroleum</span><span class="chip chip-branch" style="--chip:#5a4d3a">Education</span><span class="chip chip-formation">Brushy Canyon Formation</span></div>
+        </div>
+        <h3 class="event-title">Beaubouef et al. — AAPG Course Note Series 40</h3>
+        <p class="event-summary">AAPG Continuing Education Course Note Series 40 field guide for the April 1999 Hedberg Field Research Conference on Brushy Canyon deep-water sandstones.</p>
+        <p class="event-people">R. T. Beaubouef, Christine Rossen, F. B. Zelt, Morgan D. Sullivan, David C. Mohrig, David C. Jennette</p>
+        <p class="event-cite">Beaubouef, R.T., Rossen, C., Zelt, F.B., Sullivan, M.D., Mohrig, D.C., and Jennette, D.C., 1999, Deep-water sandstones, Brushy Canyon Formation, West Texas: Field guide for AAPG Hedberg Field Research Conference: AAPG Continuing Education Course Note Series 40, ~48 p., https://doi.org/10.1306/ce40695</p>
+      </div>
+    </article>
+    
+
+    <article class="event" style="--accent:#2f4f4f"
+      data-branches="sedimentology basin_fill petroleum education"
+      data-formations="brushy_canyon"
+      data-importance="2">
+      <div class="event-rail" aria-hidden="true"></div>
+      <div class="event-body">
+        <div class="event-meta">
+          <time class="event-year">1999</time>
+          <div class="event-chips"><span class="chip chip-branch" style="--chip:#2f4f4f">Sedimentology</span><span class="chip chip-branch" style="--chip:#4a5560">Basin fill</span><span class="chip chip-branch" style="--chip:#6b4423">Petroleum</span><span class="chip chip-branch" style="--chip:#5a4d3a">Education</span><span class="chip chip-formation">Brushy Canyon Formation</span></div>
+        </div>
+        <h3 class="event-title">Kullman M.S. (Mines) — Brushy Canyon fractures</h3>
+        <p class="event-summary">Colorado School of Mines M.S. thesis on fracture networks and fault-zone features in Brushy Canyon deep-water sandstone. Advisors: Eric P. Nelson; Neil F. Hurley.</p>
+        <p class="event-people">Aaron John Kullman</p>
+        <p class="event-cite">Kullman, A.J., 1999, Fracture networks and fault zone features in a deep water sandstone, Brushy Canyon formation, West Texas: M.S. thesis, Colorado School of Mines, https://hdl.handle.net/11124/15198</p>
+      </div>
+    </article>
+    </div>
+            </section>
+            
+            <section class="era" id="slope_and_basin_consortium" data-timescale="human">
+              <header class="era-header">
+                <p class="era-kicker">Act II · Research time</p>
+                <h2>Slope and Basin Consortium</h2>
+                <p class="era-desc">Colorado School of Mines Slope and Basin Consortium — Gardner-group Brushy Canyon outcrop and subsurface research.</p>
+              </header>
+              <div class="era-events">
+    <article class="event" style="--accent:#2f4f4f"
+      data-branches="sedimentology stratigraphy basin_fill park_science"
+      data-formations="brushy_canyon"
+      data-importance="3">
+      <div class="event-rail" aria-hidden="true"></div>
+      <div class="event-body">
+        <div class="event-meta">
+          <time class="event-year">1996</time>
+          <div class="event-chips"><span class="chip chip-branch" style="--chip:#2f4f4f">Sedimentology</span><span class="chip chip-branch" style="--chip:#5c4a3a">Stratigraphy</span><span class="chip chip-branch" style="--chip:#4a5560">Basin fill</span><span class="chip chip-branch" style="--chip:#3f5d4a">Park science</span><span class="chip chip-formation">Brushy Canyon Formation</span></div>
+        </div>
+        <h3 class="event-title">Gardner and Sonnenfeld — Brushy facies architecture</h3>
+        <p class="event-summary">PBS-SEPM guidebook paper on stratigraphic changes in facies architecture of Brushy Canyon in Guadalupe Mountains National Park.</p>
+        <p class="event-people">Michael H. Gardner, Mark D. Sonnenfeld</p>
+        <p class="event-cite">Gardner, M.H., and Sonnenfeld, M.D., 1996, Stratigraphic changes in facies architecture of the Permian Brushy Canyon Formation in Guadalupe Mountains National Park, west Texas, in DeMis, W.D., and Cole, A.G., eds., The Brushy Canyon Play in Outcrop and Subsurface: Concepts and Examples: PBS-SEPM Publication 96-38, p. 17–40.</p>
+      </div>
+    </article>
+    
+
+    <article class="event" style="--accent:#2f4f4f"
+      data-branches="sedimentology basin_fill petroleum education park_science"
+      data-formations="brushy_canyon cherry_canyon"
+      data-importance="2">
+      <div class="event-rail" aria-hidden="true"></div>
+      <div class="event-body">
+        <div class="event-meta">
+          <time class="event-year">1998</time>
+          <div class="event-chips"><span class="chip chip-branch" style="--chip:#2f4f4f">Sedimentology</span><span class="chip chip-branch" style="--chip:#4a5560">Basin fill</span><span class="chip chip-branch" style="--chip:#6b4423">Petroleum</span><span class="chip chip-branch" style="--chip:#5a4d3a">Education</span><span class="chip chip-branch" style="--chip:#3f5d4a">Park science</span><span class="chip chip-formation">Brushy Canyon Formation</span><span class="chip chip-formation">Cherry Canyon Formation</span></div>
+        </div>
+        <h3 class="event-title">Johnson M.S. (Mines) — Brushy outcrop and Cabin Lake reservoir</h3>
+        <p class="event-summary">Colorado School of Mines M.S. thesis integrating Brushy Canyon outcrop characterization in Guadalupe Mountains National Park with Cabin Lake Field (Eddy County, NM). Advisor: Michael H. Gardner.</p>
+        <p class="event-people">Kyle R. Johnson</p>
+        <p class="event-cite">Johnson, K.R., 1998, Outcrop and reservoir characterization of the Brushy Canyon formation: Guadalupe Mountains National Park, West Texas, and Cabin Lake field, Eddy County, New Mexico: M.S. thesis, Colorado School of Mines, https://hdl.handle.net/11124/15090</p>
+      </div>
+    </article>
+    
+
+    <article class="event" style="--accent:#2f4f4f"
+      data-branches="sedimentology basin_fill petroleum"
+      data-formations="brushy_canyon"
+      data-importance="3">
+      <div class="event-rail" aria-hidden="true"></div>
+      <div class="event-body">
+        <div class="event-meta">
+          <time class="event-year">2000</time>
+          <div class="event-chips"><span class="chip chip-branch" style="--chip:#2f4f4f">Sedimentology</span><span class="chip chip-branch" style="--chip:#4a5560">Basin fill</span><span class="chip chip-branch" style="--chip:#6b4423">Petroleum</span><span class="chip chip-formation">Brushy Canyon Formation</span></div>
+        </div>
+        <h3 class="event-title">Carr and Gardner 2000 — lower Brushy basin-floor fan</h3>
+        <p class="event-summary">Chapter in Fine-Grained Turbidite Systems describing architecture of a sandy lower Brushy Canyon basin-floor fan (sheets, distributary channels, cycle stacking).</p>
+        <p class="event-people">Mary M. Carr, Michael H. Gardner</p>
+        <p class="event-cite">Carr, M.M., and Gardner, M.H., 2000, Portrait of a basin-floor fan for sandy deepwater systems, Permian Lower Brushy Canyon Formation, West Texas, in Bouma, A.H., and Stone, C.G., eds., Fine-grained turbidite systems: AAPG Memoir 72 / SEPM Special Publication 68, p. 215–231, https://doi.org/10.1306/m72703c20</p>
+      </div>
+    </article>
+    
+
+    <article class="event" style="--accent:#2f4f4f"
+      data-branches="sedimentology basin_fill petroleum"
+      data-formations="brushy_canyon"
+      data-importance="3">
+      <div class="event-rail" aria-hidden="true"></div>
+      <div class="event-body">
+        <div class="event-meta">
+          <time class="event-year">2000</time>
+          <div class="event-chips"><span class="chip chip-branch" style="--chip:#2f4f4f">Sedimentology</span><span class="chip chip-branch" style="--chip:#4a5560">Basin fill</span><span class="chip chip-branch" style="--chip:#6b4423">Petroleum</span><span class="chip chip-formation">Brushy Canyon Formation</span></div>
+        </div>
+        <h3 class="event-title">Gardner and Borer 2000 — slope-to-basin channel architecture</h3>
+        <p class="event-summary">Chapter in Fine-Grained Turbidite Systems comparing Brushy Canyon channel architecture along a slope-to-basin profile (cut–fill–spill hierarchy).</p>
+        <p class="event-people">Michael H. Gardner, James M. Borer</p>
+        <p class="event-cite">Gardner, M.H., and Borer, J.M., 2000, Submarine channel architecture along a slope to basin profile, Brushy Canyon Formation, West Texas, in Bouma, A.H., and Stone, C.G., eds., Fine-grained turbidite systems: AAPG Memoir 72 / SEPM Special Publication 68, p. 195–214, https://doi.org/10.1306/m72703c19</p>
+      </div>
+    </article>
+    
+
+    <article class="event" style="--accent:#2f4f4f"
+      data-branches="sedimentology basin_fill education"
+      data-formations="brushy_canyon"
+      data-importance="2">
+      <div class="event-rail" aria-hidden="true"></div>
+      <div class="event-body">
+        <div class="event-meta">
+          <time class="event-year">2001</time>
+          <div class="event-chips"><span class="chip chip-branch" style="--chip:#2f4f4f">Sedimentology</span><span class="chip chip-branch" style="--chip:#4a5560">Basin fill</span><span class="chip chip-branch" style="--chip:#5a4d3a">Education</span><span class="chip chip-formation">Brushy Canyon Formation</span></div>
+        </div>
+        <h3 class="event-title">Wagerle M.S. (Mines) — middle Brushy Canyon architecture</h3>
+        <p class="event-summary">Colorado School of Mines M.S. thesis on proximal–distal vs along-strike variations in middle Brushy Canyon deep-water architecture, Delaware Mountains. Advisor: Michael H. Gardner.</p>
+        <p class="event-people">Roger N. Wagerle</p>
+        <p class="event-cite">Wagerle, R.N., 2001, Deciphering proximal-distal from along-strike variations in the deep water architecture of the middle Brushy Canyon formation, Delaware Mountains, West Texas: M.S. thesis, Colorado School of Mines, https://hdl.handle.net/11124/15294</p>
+      </div>
+    </article>
+    
+
+    <article class="event" style="--accent:#2f4f4f"
+      data-branches="sedimentology basin_fill education"
+      data-formations="brushy_canyon"
+      data-importance="2">
+      <div class="event-rail" aria-hidden="true"></div>
+      <div class="event-body">
+        <div class="event-meta">
+          <time class="event-year">2002</time>
+          <div class="event-chips"><span class="chip chip-branch" style="--chip:#2f4f4f">Sedimentology</span><span class="chip chip-branch" style="--chip:#4a5560">Basin fill</span><span class="chip chip-branch" style="--chip:#5a4d3a">Education</span><span class="chip chip-formation">Brushy Canyon Formation</span></div>
+        </div>
+        <h3 class="event-title">Melick M.S. (Mines) — upper Brushy Canyon facies architecture</h3>
+        <p class="event-summary">Colorado School of Mines M.S. thesis on facies and sediment-body architecture of upper Brushy Canyon deep-water clastics, central Delaware Mountains. Advisor: Michael H. Gardner.</p>
+        <p class="event-people">Jesse John Melick</p>
+        <p class="event-cite">Melick, J.J., 2002, Facies and sediment body architecture of Permian deep-water clastics, upper Brushy Canyon, central Delaware Mountains, West Texas, U.S.A.: M.S. thesis, Colorado School of Mines, https://hdl.handle.net/11124/15316</p>
+      </div>
+    </article>
+    
+
+    <article class="event" style="--accent:#2f4f4f"
+      data-branches="sedimentology basin_fill petroleum"
+      data-formations="brushy_canyon"
+      data-importance="3">
+      <div class="event-rail" aria-hidden="true"></div>
+      <div class="event-body">
+        <div class="event-meta">
+          <time class="event-year">2003</time>
+          <div class="event-chips"><span class="chip chip-branch" style="--chip:#2f4f4f">Sedimentology</span><span class="chip chip-branch" style="--chip:#4a5560">Basin fill</span><span class="chip chip-branch" style="--chip:#6b4423">Petroleum</span><span class="chip chip-formation">Brushy Canyon Formation</span></div>
+        </div>
+        <h3 class="event-title">Gardner et al. 2003 — process-response model for channels</h3>
+        <p class="event-summary">Marine and Petroleum Geology paper proposing a stratigraphic process-response model for submarine channels and related features from Brushy Canyon outcrops.</p>
+        <p class="event-people">Michael H. Gardner, James M. Borer, Jesse J. Melick, Nicola Mavilla, Marieke Dechesne, Roger N. Wagerle</p>
+        <p class="event-cite">Gardner, M.H., Borer, J.M., Melick, J.J., Mavilla, N., Dechesne, M., and Wagerle, R.N., 2003, Stratigraphic process-response model for submarine channels and related features from studies of Permian Brushy Canyon outcrops, West Texas: Marine and Petroleum Geology, v. 20, p. 757–787, https://doi.org/10.1016/j.marpetgeo.2003.07.004</p>
+      </div>
+    </article>
+    
+
+    <article class="event" style="--accent:#2f4f4f"
+      data-branches="sedimentology stratigraphy basin_fill education"
+      data-formations="brushy_canyon cherry_canyon cutoff"
+      data-importance="3">
+      <div class="event-rail" aria-hidden="true"></div>
+      <div class="event-body">
+        <div class="event-meta">
+          <time class="event-year">2003</time>
+          <div class="event-chips"><span class="chip chip-branch" style="--chip:#2f4f4f">Sedimentology</span><span class="chip chip-branch" style="--chip:#5c4a3a">Stratigraphy</span><span class="chip chip-branch" style="--chip:#4a5560">Basin fill</span><span class="chip chip-branch" style="--chip:#5a4d3a">Education</span><span class="chip chip-formation">Brushy Canyon Formation</span><span class="chip chip-formation">Cherry Canyon Formation</span><span class="chip chip-formation">Cutoff Formation</span></div>
+        </div>
+        <h3 class="event-title">Romans M.S. (Mines) — Cutoff–Brushy–Cherry basinal cycle</h3>
+        <p class="event-summary">Colorado School of Mines M.S. thesis on sedimentation patterns of a Permian basinal cycle spanning upper Cutoff, Brushy Canyon, and lower Cherry Canyon across the western Delaware Basin. Advisor: Michael H. Gardner.</p>
+        <p class="event-people">Brian W. Romans</p>
+        <p class="event-cite">Romans, B.W., 2003, Sedimentation patterns of a Permian basinal cycle, upper Cutoff, Brushy Canyon, and lower Cherry Canyon formations, western Delaware basin, west Texas and southeastern New Mexico, U.S.A.: M.S. thesis, Colorado School of Mines, https://hdl.handle.net/11124/15694</p>
+      </div>
+    </article>
+    
+
+    <article class="event" style="--accent:#2f4f4f"
+      data-branches="sedimentology stratigraphy basin_fill education"
+      data-formations="brushy_canyon"
+      data-importance="3">
+      <div class="event-rail" aria-hidden="true"></div>
+      <div class="event-body">
+        <div class="event-meta">
+          <time class="event-year">2004</time>
+          <div class="event-chips"><span class="chip chip-branch" style="--chip:#2f4f4f">Sedimentology</span><span class="chip chip-branch" style="--chip:#5c4a3a">Stratigraphy</span><span class="chip chip-branch" style="--chip:#4a5560">Basin fill</span><span class="chip chip-branch" style="--chip:#5a4d3a">Education</span><span class="chip chip-formation">Brushy Canyon Formation</span></div>
+        </div>
+        <h3 class="event-title">Baptista M.S. (Mines) — Brushy Canyon basin-wide framework</h3>
+        <p class="event-summary">Colorado School of Mines M.S. thesis on deep-water depositional patterns and sequence stratigraphy of Brushy Canyon across the Delaware Basin. Advisor: Michael H. Gardner.</p>
+        <p class="event-people">Noelia del Valle Baptista Brito</p>
+        <p class="event-cite">Baptista Brito, N. del V., 2004, Deep-water depositional patterns and sequence stratigraphic framework of the Permian Brushy Canyon formation across the Delaware Basin, West Texas and Southeastern New Mexico, U.S.A.: M.S. thesis, Colorado School of Mines, https://hdl.handle.net/11124/16747</p>
+      </div>
+    </article>
+    
+
+    <article class="event" style="--accent:#2f4f4f"
+      data-branches="sedimentology basin_fill petroleum education"
+      data-formations="brushy_canyon"
+      data-importance="3">
+      <div class="event-rail" aria-hidden="true"></div>
+      <div class="event-body">
+        <div class="event-meta">
+          <time class="event-year">2005</time>
+          <div class="event-chips"><span class="chip chip-branch" style="--chip:#2f4f4f">Sedimentology</span><span class="chip chip-branch" style="--chip:#4a5560">Basin fill</span><span class="chip chip-branch" style="--chip:#6b4423">Petroleum</span><span class="chip chip-branch" style="--chip:#5a4d3a">Education</span><span class="chip chip-formation">Brushy Canyon Formation</span></div>
+        </div>
+        <h3 class="event-title">Borer Ph.D. (Mines) — middle Brushy Canyon channel modeling</h3>
+        <p class="event-summary">Colorado School of Mines Ph.D. dissertation on outcrop analysis and geologic modeling of submarine channels and related strata, middle Brushy Canyon. Advisors: Michael H. Gardner; Timothy A. Cross.</p>
+        <p class="event-people">James M. Borer</p>
+        <p class="event-cite">Borer, J.M., 2005, Outcrop analysis and geologic modeling of submarine channels and related strata, Permian middle Brushy Canyon formation, West Texas, USA: Ph.D. dissertation, Colorado School of Mines, https://hdl.handle.net/11124/177744</p>
+      </div>
+    </article>
+    
+
+    <article class="event" style="--accent:#2f4f4f"
+      data-branches="sedimentology basin_fill education"
+      data-formations="brushy_canyon"
+      data-importance="2">
+      <div class="event-rail" aria-hidden="true"></div>
+      <div class="event-body">
+        <div class="event-meta">
+          <time class="event-year">2006</time>
+          <div class="event-chips"><span class="chip chip-branch" style="--chip:#2f4f4f">Sedimentology</span><span class="chip chip-branch" style="--chip:#4a5560">Basin fill</span><span class="chip chip-branch" style="--chip:#5a4d3a">Education</span><span class="chip chip-formation">Brushy Canyon Formation</span></div>
+        </div>
+        <h3 class="event-title">Kling Ph.D. (Mines) — Brushy Canyon starved margin</h3>
+        <p class="event-summary">Colorado School of Mines Ph.D. dissertation on deep-marine sedimentation patterns along a starved basin margin, Brushy Canyon, southern Delaware Mountains. Advisor: Michael H. Gardner.</p>
+        <p class="event-people">Erik R. Kling</p>
+        <p class="event-cite">Kling, E.R., 2006, Patterns of deep marine sedimentation along a starved basin margin, Permian Brushy Canyon Formation, southern Delaware Mountains, West Texas, USA: Ph.D. dissertation, Colorado School of Mines, https://hdl.handle.net/11124/177784</p>
+      </div>
+    </article>
+    
+
+    <article class="event" style="--accent:#2f4f4f"
+      data-branches="sedimentology basin_fill education"
+      data-formations="brushy_canyon"
+      data-importance="2">
+      <div class="event-rail" aria-hidden="true"></div>
+      <div class="event-body">
+        <div class="event-meta">
+          <time class="event-year">2007</time>
+          <div class="event-chips"><span class="chip chip-branch" style="--chip:#2f4f4f">Sedimentology</span><span class="chip chip-branch" style="--chip:#4a5560">Basin fill</span><span class="chip chip-branch" style="--chip:#5a4d3a">Education</span><span class="chip chip-formation">Brushy Canyon Formation</span></div>
+        </div>
+        <h3 class="event-title">Hanggoro M.S. (Mines) — lower Brushy Canyon slope channels</h3>
+        <p class="event-summary">Colorado School of Mines M.S. thesis on facies and architecture of sandy slope channels, lower Brushy Canyon, Bitterwell Mountains. Advisor: Michael H. Gardner.</p>
+        <p class="event-people">Diah Hanggoro</p>
+        <p class="event-cite">Hanggoro, D., 2007, Facies and architecture of sandy slope channels, Permian lower Brushy Canyon formation, Bitterwell Mountains, West Texas USA: M.S. thesis, Colorado School of Mines, https://hdl.handle.net/11124/15998</p>
+      </div>
+    </article>
+    </div>
+            </section>
+            
+  </main>
+
+  <footer class="site-foot">
+    <p>The West Face · edit <code>data/events.csv</code> then run <code>python src/build_html.py</code></p>
+  </footer>
+
+  <script src="timeline.js"></script>
+</body>
+</html>

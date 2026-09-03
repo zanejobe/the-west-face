@@ -26,6 +26,11 @@ eras:
     timescale: human
     description: Delaware Basin industry and academic surge.
 
+  - id: slope_and_basin_consortium
+    label: Slope and Basin Consortium
+    timescale: human
+    description: Colorado School of Mines Slope and Basin Consortium — Gardner-group Brushy Canyon outcrop and subsurface research.
+
   - id: park_and_public
     label: Park and public science
     timescale: human

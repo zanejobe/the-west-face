@@ -1,6 +1,8 @@
 # Event table schema
 
-One row = one timeline event. Multi-branch events use semicolon-separated tags in `branches`.
+One row = one timeline event.
+
+Multi-select tags use **semicolon-separated** ids (no spaces around `;` preferred: `mapping;sedimentology`).
 
 | Column | Required | Description |
 |---|---|---|
@@ -14,13 +16,27 @@ One row = one timeline event. Multi-branch events use semicolon-separated tags i
 | `people` | no | Semicolon-separated names |
 | `orgs` | no | Semicolon-separated organizations |
 | `citations` | no | Short cite, DOI, or URL |
-| `branches` | yes | Semicolon-separated tags from `data/branches.yaml` |
+| `branches` | yes | Thematic tags from `data/branches.yaml` |
 | `branch_primary` | no | One branch for default lane color when multi-tagged |
+| `formations` | no | Formation tags from `data/formations.yaml`; blank = Guads-wide / not unit-specific |
 | `importance` | yes | `1` full only; `2` web; `3` poster + PPT highlight |
 | `image` | no | Path under `assets/images/` |
 | `image_credit` | no | Credit / rights string |
 
-## Branches vs eras
+## Eras vs branches vs formations
 
-- **eras** — chronological sections (deep time → research periods).
-- **branches** — thematic lanes / filters (mapping, sedimentology, petroleum, …). An event can have many branches; it belongs to one era.
+These are **three independent filters**:
+
+| Field | What it answers | Example |
+|---|---|---|
+| **eras** | *When* in the story? | `usgs_mapping` |
+| **branches** | *What kind of research?* | `mapping;stratigraphy` |
+| **formations** | *Which rock unit(s)?* | `brushy_canyon;cherry_canyon` |
+
+Do **not** put formation names in `branches`. Use `basin_fill` / `reef_and_shelf` for the *style* of geology, and `formations` for the lithostratigraphic filter (e.g. Brushy Canyon only).
+
+Example: a paper on Brushy Canyon turbidites might be:
+
+- `branches`: `sedimentology;basin_fill`
+- `branch_primary`: `sedimentology`
+- `formations`: `brushy_canyon`

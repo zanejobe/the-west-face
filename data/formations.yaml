@@ -1,0 +1,78 @@
+# Lithostratigraphic filter tags (orthogonal to thematic branches).
+# Use the `id` values in events.csv `formations` (semicolon-separated).
+# Leave blank for Guads-wide / non-formation-specific events.
+
+formations:
+  - id: brushy_canyon
+    label: Brushy Canyon Formation
+    group: delaware_mountain_group
+
+  - id: cherry_canyon
+    label: Cherry Canyon Formation
+    group: delaware_mountain_group
+
+  - id: bell_canyon
+    label: Bell Canyon Formation
+    group: delaware_mountain_group
+
+  - id: delaware_mountain_group
+    label: Delaware Mountain Group
+    group: delaware_mountain_group
+    description: Use when the event treats DMG as a whole, not a single formation.
+
+  - id: cutoff
+    label: Cutoff Formation
+    group: basin_margin
+
+  - id: bone_spring
+    label: Bone Spring Formation
+    group: basin
+
+  - id: victorio_peak
+    label: Victorio Peak Formation
+    group: shelf
+
+  - id: yeso
+    label: Yeso Group / Formation
+    group: shelf
+
+  - id: san_andres
+    label: San Andres Formation
+    group: shelf
+
+  - id: goat_seep
+    label: Goat Seep Dolomite
+    group: reef_complex
+
+  - id: capitan
+    label: Capitan Limestone
+    group: reef_complex
+
+  - id: seven_rivers
+    label: Seven Rivers Formation
+    group: backreef
+
+  - id: yates
+    label: Yates Formation
+    group: backreef
+
+  - id: tansill
+    label: Tansill Formation
+    group: backreef
+
+  - id: castile
+    label: Castile Formation
+    group: basin_evaporite
+
+  - id: salado
+    label: Salado Formation
+    group: basin_evaporite
+
+  - id: rustler
+    label: Rustler Formation
+    group: basin_evaporite
+
+  - id: other
+    label: Other / unspecified
+    group: other
+    description: Named unit not in this list; put the name in the summary or citations.
