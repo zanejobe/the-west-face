@@ -35,32 +35,39 @@ code {
 
 .hero {
   position: relative;
-  min-height: 72vh;
+  min-height: 78vh;
   display: grid;
   place-items: end start;
   padding: clamp(2rem, 5vw, 4rem);
   color: var(--limestone);
-  background:
-    linear-gradient(165deg, #2a332c 0%, #3d3428 42%, #6a5538 78%, #9a7d52 100%);
+  background: #1c2420;
   overflow: hidden;
+}
+
+.hero-photo {
+  position: absolute;
+  inset: 0;
+  background:
+    url("images/banner-west-face.jpg") center / cover no-repeat;
+  transform: scale(1.04);
+  animation: hero- ken 28s ease-in-out infinite alternate;
+}
+
+@keyframes hero-ken {
+  from { transform: scale(1.04) translate3d(0, 0, 0); }
+  to { transform: scale(1.1) translate3d(-1.2%, -0.8%, 0); }
 }
 
 .hero-veil {
   position: absolute;
   inset: 0;
   background:
-    repeating-linear-gradient(
-      -18deg,
-      transparent 0 14px,
-      rgba(0, 0, 0, 0.035) 14px 15px
-    ),
-    linear-gradient(to top, rgba(20, 24, 20, 0.55), transparent 45%);
-  animation: veil-drift 18s ease-in-out infinite alternate;
-}
-
-@keyframes veil-drift {
-  from { transform: translateY(0); opacity: 0.9; }
-  to { transform: translateY(-1.5%); opacity: 1; }
+    linear-gradient(
+      to top,
+      rgba(12, 16, 14, 0.78) 0%,
+      rgba(12, 16, 14, 0.35) 42%,
+      rgba(12, 16, 14, 0.2) 100%
+    );
 }
 
 .hero-inner {

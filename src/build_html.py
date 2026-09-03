@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import csv
 import html
+import shutil
 from collections import defaultdict
 from pathlib import Path
 
@@ -15,7 +16,10 @@ except ImportError as exc:  # pragma: no cover
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
+ASSETS = ROOT / "assets" / "images"
 OUT = ROOT / "docs"
+BANNER_SRC = ASSETS / "banner-west-face.jpg"
+BANNER_DEST_NAME = "banner-west-face.jpg"
 
 BRANCH_COLORS = {
     "deep_time": "#6b5a3e",
@@ -189,11 +193,12 @@ def build() -> Path:
 </head>
 <body>
   <header class="hero">
+    <div class="hero-photo" role="img" aria-label="Western escarpment of the Guadalupe Mountains"></div>
     <div class="hero-veil"></div>
     <div class="hero-inner">
       <p class="hero-brand">The West Face</p>
       <p class="hero-sub">A research history of the Guadalupe Mountains — from deep time to today.</p>
-      <p class="hero-note">Mock build from <code>data/events.csv</code> · {len(events)} events</p>
+      <p class="hero-note">{len(events)} events · from <code>data/events.csv</code></p>
     </div>
   </header>
 
@@ -223,6 +228,10 @@ def build() -> Path:
 """
 
     OUT.mkdir(parents=True, exist_ok=True)
+    images_out = OUT / "images"
+    images_out.mkdir(parents=True, exist_ok=True)
+    if BANNER_SRC.exists():
+        shutil.copy2(BANNER_SRC, images_out / BANNER_DEST_NAME)
     (OUT / "index.html").write_text(page, encoding="utf-8")
     return OUT / "index.html"
 
