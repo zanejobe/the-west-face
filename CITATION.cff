@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "The West Face"
+message: "If you use this timeline, please cite it."
+type: software
+authors:
+  - family-names: Jobe
+    given-names: Zane
+    email: zanejobe@mines.edu
+    affiliation: "Colorado School of Mines"
+repository-code: "https://github.com/zanejobe/the-west-face"
+url: "https://github.com/zanejobe/the-west-face"
+abstract: >-
+  A research history of the Guadalupe Mountains — from deep time along the
+  western escarpment to the people who mapped, measured, and debated it.
+license: MIT
+date-released: "2026-09-03"

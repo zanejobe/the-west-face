@@ -1,0 +1,47 @@
+# Controlled vocabulary for event branch tags (filters / parallel lanes).
+# Use the `id` values in events.csv `branches` (semicolon-separated).
+
+branches:
+  - id: deep_time
+    label: Deep time
+    description: Depositional and tectonic context of the western escarpment and Delaware Basin fill.
+
+  - id: mapping
+    label: Mapping
+    description: Regional and detailed geologic mapping (USGS, state surveys, park maps).
+
+  - id: stratigraphy
+    label: Stratigraphy
+    description: Nomenclature, correlation, and stratigraphic frameworks (including Capitan / DMG).
+
+  - id: reef_and_shelf
+    label: Reef and shelf
+    description: Capitan reef complex, shelf margin, and related facies.
+
+  - id: basin_fill
+    label: Basin fill
+    description: Delaware Mountain Group and related basin-floor systems (Brushy Canyon, Cherry, Bell Canyon).
+
+  - id: sedimentology
+    label: Sedimentology
+    description: Process sedimentology, facies, and outcrop-based depositional models.
+
+  - id: petroleum
+    label: Petroleum
+    description: Delaware Basin exploration, production analogs, and industry-driven research.
+
+  - id: paleontology
+    label: Paleontology
+    description: Fossils, biostratigraphy, and paleoecology.
+
+  - id: park_science
+    label: Park science
+    description: National Park Service science, conservation, and public interpretation.
+
+  - id: digital_methods
+    label: Digital methods
+    description: LiDAR, digital outcrop models, VR/vis, and quantitative imaging.
+
+  - id: education
+    label: Education
+    description: Field courses, training, and teaching collections.

@@ -1,0 +1,37 @@
+# Chronological sections for the timeline (geologic hinge → human research eras).
+
+eras:
+  - id: permian_deposition
+    label: Permian deposition
+    timescale: geologic
+    description: Building the western escarpment and Delaware Basin fill.
+
+  - id: early_exploration
+    label: Early exploration
+    timescale: human
+    description: Reconnaissance and first systematic observations.
+
+  - id: usgs_mapping
+    label: USGS mapping era
+    timescale: human
+    description: Regional mapping and foundational Professional Papers (including King).
+
+  - id: midcentury_frameworks
+    label: Mid-century frameworks
+    timescale: human
+    description: Stratigraphic refinement, sedimentology, and basin models.
+
+  - id: petroleum_surge
+    label: Petroleum and basin research
+    timescale: human
+    description: Delaware Basin industry and academic surge.
+
+  - id: park_and_public
+    label: Park and public science
+    timescale: human
+    description: Guadalupe Mountains National Park science and outreach.
+
+  - id: modern_methods
+    label: Modern methods
+    timescale: human
+    description: Digital outcrops, quantitative stratigraphy, and ongoing research.
