@@ -1,5 +1,7 @@
 # The West Face
 
+## [View the live timeline →](https://zanejobe.github.io/the-west-face/)
+
 **A research history of the Guadalupe Mountains — from deep time to today.**
 
 The western escarpment of the Guadalupes (El Capitan, Capitan reef margin, Delaware Basin fill including Brushy Canyon) is the classic wall for reading Permian geology. This project traces how that wall has been mapped, named, argued over, and re-measured — geologic time first, then human research time.
