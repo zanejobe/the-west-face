@@ -235,6 +235,9 @@ def build_brushy_timeline_json(events: list[dict], era_labels: dict) -> dict:
 
 
 def build_brushy_page(n_events: int) -> str:
+    # Cache-bust stylesheet: browsers otherwise keep an old styles.css after deploys.
+    # TimelineJS treats initial_zoom: 0 as falsy and skips it; zoom_sequence[0]=0.5
+    # also crushes the nav. Use index 1 (= 1× screen width) so 1942–2021 fits.
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -245,7 +248,7 @@ def build_brushy_page(n_events: int) -> str:
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
   <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=3">
 </head>
 <body class="page-brushy">
   <header class="subnav">
@@ -259,21 +262,11 @@ def build_brushy_page(n_events: int) -> str:
     window.addEventListener("load", function () {{
       window.timeline = new TL.Timeline("timeline-embed", "brushy-timeline.json", {{
         hash_bookmark: true,
-        initial_zoom: 0,
-        scale_factor: 0.5,
+        initial_zoom: 1,
+        scale_factor: 1,
         start_at_slide: 0,
         timenav_height_percentage: 34
       }});
-      // Ensure fully zoomed-out nav after TimelineJS finishes layout.
-      if (window.timeline && typeof window.timeline.on === "function") {{
-        window.timeline.on("loaded", function () {{
-          if (typeof window.timeline.setZoom === "function") {{
-            window.timeline.setZoom(0);
-          }}
-        }});
-      }} else if (window.timeline && typeof window.timeline.setZoom === "function") {{
-        window.setTimeout(function () {{ window.timeline.setZoom(0); }}, 0);
-      }}
     }});
   </script>
 </body>
@@ -370,7 +363,7 @@ def build() -> Path:
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=3">
 </head>
 <body>
   <header class="hero">
