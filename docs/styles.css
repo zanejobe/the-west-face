@@ -363,19 +363,43 @@ code {
   height: calc(100vh - 3.25rem);
 }
 
-/* TimelineJS title slide: full-strength hero photo + readable type */
+/* TimelineJS title slide: show full King plate (contain), readable dark type */
 .page-brushy .tl-slide-titleslide {
-  background-color: #1c2420 !important;
+  background-color: #efe6d6 !important;
 }
 
 .page-brushy .tl-slide-titleslide .tl-slide-background {
   opacity: 1 !important;
-  filter: brightness(0.72);
+  z-index: 0 !important;
+  filter: none !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-color: #efe6d6 !important;
+}
+
+.page-brushy .tl-slide-titleslide .tl-slide-content-container {
+  position: relative;
+  z-index: 1;
+}
+
+.page-brushy .tl-slide-titleslide .tl-text {
+  max-width: 32rem;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(244, 239, 230, 0.9);
+  padding: 1rem 1.25rem;
+  border-radius: 2px;
+  box-shadow: 0 8px 28px rgba(28, 36, 32, 0.18);
 }
 
 .page-brushy .tl-slide-titleslide .tl-headline,
-.page-brushy .tl-slide-titleslide .tl-text {
-  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.55);
+.page-brushy .tl-slide-titleslide .tl-text,
+.page-brushy .tl-slide-titleslide .tl-headline *,
+.page-brushy .tl-slide-titleslide .tl-text * {
+  color: #1a1c18 !important;
+  text-shadow: none !important;
+  -webkit-text-fill-color: #1a1c18 !important;
 }
 
 /* Cover-style event slides (King plate, Beaubouef cover, etc.) */

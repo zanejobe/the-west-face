@@ -223,7 +223,7 @@ def build_brushy_timeline_json(events: list[dict], era_labels: dict) -> dict:
         },
         "background": {
             "url": f"images/{BRUSHY_HERO_NAME}",
-            "color": "#1c2420",
+            "color": "#efe6d6",
             "alt": "King 1948 USGS Professional Paper 215 plate — El Capitan to Shumard Peak",
         },
     }
@@ -259,9 +259,21 @@ def build_brushy_page(n_events: int) -> str:
     window.addEventListener("load", function () {{
       window.timeline = new TL.Timeline("timeline-embed", "brushy-timeline.json", {{
         hash_bookmark: true,
-        initial_zoom: 2,
-        timenav_height_percentage: 28
+        initial_zoom: 0,
+        scale_factor: 0.5,
+        start_at_slide: 0,
+        timenav_height_percentage: 34
       }});
+      // Ensure fully zoomed-out nav after TimelineJS finishes layout.
+      if (window.timeline && typeof window.timeline.on === "function") {{
+        window.timeline.on("loaded", function () {{
+          if (typeof window.timeline.setZoom === "function") {{
+            window.timeline.setZoom(0);
+          }}
+        }});
+      }} else if (window.timeline && typeof window.timeline.setZoom === "function") {{
+        window.setTimeout(function () {{ window.timeline.setZoom(0); }}, 0);
+      }}
     }});
   </script>
 </body>
