@@ -297,6 +297,123 @@ code {
   margin: 0 0 0.4rem;
 }
 
+.event-figure {
+  margin: 0.65rem 0 0.75rem;
+  max-width: 36rem;
+}
+
+.event-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(28, 36, 32, 0.14);
+}
+
+.event-figure figcaption {
+  margin-top: 0.35rem;
+  font-size: 0.78rem;
+  color: rgba(26, 28, 24, 0.58);
+}
+
+.subnav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 1.25rem;
+  padding: 0.75rem clamp(1rem, 3vw, 1.75rem);
+  background: #1c2420;
+  color: var(--limestone);
+}
+
+.subnav-brand {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.subnav-title {
+  margin: 0;
+  flex: 1;
+  font-size: 0.92rem;
+  opacity: 0.82;
+}
+
+.subnav-back {
+  color: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.page-brushy {
+  margin: 0;
+  background: #1c2420;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.brushy-embed {
+  flex: 1;
+  width: 100%;
+  min-height: calc(100vh - 3.25rem);
+  height: calc(100vh - 3.25rem);
+}
+
+/* TimelineJS title slide: full-strength hero photo + readable type */
+.page-brushy .tl-slide-titleslide {
+  background-color: #1c2420 !important;
+}
+
+.page-brushy .tl-slide-titleslide .tl-slide-background {
+  opacity: 1 !important;
+  filter: brightness(0.72);
+}
+
+.page-brushy .tl-slide-titleslide .tl-headline,
+.page-brushy .tl-slide-titleslide .tl-text {
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.55);
+}
+
+/* Cover-style event slides (King plate, Beaubouef cover, etc.) */
+.page-brushy .tl-full-image-background:not(.tl-slide-titleslide) .tl-slide-background {
+  opacity: 1 !important;
+  z-index: 0 !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-color: #1c2420 !important;
+}
+
+.page-brushy .tl-full-image-background:not(.tl-slide-titleslide) .tl-slide-content-container {
+  position: relative;
+  z-index: 1;
+}
+
+.page-brushy .tl-full-image-background:not(.tl-slide-titleslide) .tl-text {
+  max-width: 28rem;
+  background: rgba(244, 239, 230, 0.92);
+  padding: 1rem 1.15rem 1.1rem;
+  border-radius: 2px;
+  box-shadow: 0 8px 28px rgba(28, 36, 32, 0.22);
+}
+
+.page-brushy .tl-full-image-background:not(.tl-slide-titleslide) .tl-headline,
+.page-brushy .tl-full-image-background:not(.tl-slide-titleslide) .tl-text,
+.page-brushy .tl-full-image-background:not(.tl-slide-titleslide) .tl-headline-date,
+.page-brushy .tl-full-image-background:not(.tl-slide-titleslide) .tl-headline * {
+  color: #1a1c18 !important;
+  text-shadow: none !important;
+  -webkit-text-fill-color: #1a1c18 !important;
+}
+
+.filter-status a {
+  color: var(--shade);
+  font-weight: 600;
+}
+
 .event-people {
   font-size: 0.95rem;
   color: rgba(26, 28, 24, 0.8);

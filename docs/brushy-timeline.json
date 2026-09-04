@@ -1,0 +1,303 @@
+{
+  "title": {
+    "text": {
+      "headline": "Brushy Canyon research",
+      "text": "A TimelineJS view of events tagged <em>Brushy Canyon Formation</em> in The West Face dataset — names, maps, process models, and Mines theses."
+    },
+    "background": {
+      "url": "images/banner-west-face.jpg",
+      "color": "#1c2420",
+      "alt": "Western escarpment of the Guadalupe Mountains"
+    }
+  },
+  "events": [
+    {
+      "unique_id": "king-1942-dmg-names",
+      "start_date": {
+        "year": 1942,
+        "display_date": "1942"
+      },
+      "text": {
+        "headline": "King — Brushy Cherry and Bell Canyon named",
+        "text": "P. B. King describes the Delaware Mountain Group and its Brushy Canyon, Cherry Canyon, and Bell Canyon Formations (names already credited to him in DeFord and Lloyd, 1940). Formal lithostratigraphic frame for the western escarpment and Delaware Basin fill.\n<p><strong>People:</strong> Philip B. King</p>\n<p><em>King, P.B., 1942, Permian of west Texas and southeastern New Mexico: AAPG Bulletin, v. 26, no. 4, p. 535–763. See also DeFord, R.K., and Lloyd, E.R., 1940, AAPG Bulletin, v. 24, p. 1–14 (names credited to King).</em></p>"
+      },
+      "group": "USGS mapping era"
+    },
+    {
+      "unique_id": "king-1948-pp215",
+      "start_date": {
+        "year": 1948,
+        "display_date": "1948"
+      },
+      "text": {
+        "headline": "King — USGS Professional Paper 215 southern Guadalupes",
+        "text": "USGS Professional Paper 215 maps and describes the southern Guadalupe and adjacent Delaware Mountains Permian section, including Brushy Canyon stratigraphy and relations along the western escarpment.\n<p><strong>People:</strong> Philip B. King</p>\n<p><em>King, P.B., 1948, Geology of the Southern Guadalupe Mountains, Texas: USGS Professional Paper 215, 183 p., https://doi.org/10.3133/pp215</em></p>"
+      },
+      "group": "USGS mapping era",
+      "background": {
+        "url": "images/king-1948-pp215.png",
+        "color": "#1c2420"
+      }
+    },
+    {
+      "unique_id": "hayes-1964-pp446",
+      "start_date": {
+        "year": 1964,
+        "display_date": "1964"
+      },
+      "text": {
+        "headline": "Hayes — USGS Professional Paper 446 New Mexico Guadalupes",
+        "text": "USGS Professional Paper 446 maps Guadalupe Mountains geology in New Mexico and discusses Delaware Mountain Group / Capitan shelf–reef–basin relations north of King&#x27;s Texas map area.\n<p><strong>People:</strong> Philip T. Hayes</p>\n<p><em>Hayes, P.T., 1964, Geology of the Guadalupe Mountains, New Mexico: USGS Professional Paper 446, 69 p., https://doi.org/10.3133/pp446</em></p>"
+      },
+      "group": "USGS mapping era"
+    },
+    {
+      "unique_id": "harms-1974-brushy-density",
+      "start_date": {
+        "year": 1974,
+        "display_date": "1974"
+      },
+      "text": {
+        "headline": "Harms — Brushy Canyon deep-water density-current deposit",
+        "text": "J. C. Harms interprets the Brushy Canyon Formation as a deep-water density-current deposit (GSA Bulletin). Widely cited turning point in Brushy Canyon process models.\n<p><strong>People:</strong> John C. Harms</p>\n<p><em>Harms, J.C., 1974, Brushy Canyon Formation, Texas: A deep-water density current deposit: Geological Society of America Bulletin, v. 85, p. 1763–1784.</em></p>"
+      },
+      "group": "Mid-century frameworks",
+      "media": {
+        "url": "images/harms-1974-brushy-density.png",
+        "credit": "TBD — Harms 1974 figure",
+        "alt": "Harms — Brushy Canyon deep-water density-current deposit"
+      }
+    },
+    {
+      "unique_id": "rossen-1985-ms-thesis",
+      "start_date": {
+        "year": 1985,
+        "display_date": "1985"
+      },
+      "text": {
+        "headline": "Rossen M.S. thesis — Brushy Canyon onlap area",
+        "text": "Christine Rossen M.S. thesis on Brushy Canyon sedimentology in the Guadalupe Mountains onlap area (University of Wisconsin–Madison). Cited as foundational outcrop work preceding later Exxon publications.\n<p><strong>People:</strong> Christine Rossen</p>\n<p><em>Rossen, C., 1985, Sedimentology of the Brushy Canyon Formation (Permian, Early Guadalupian) in the onlap area, Guadalupe Mountains, west Texas: M.S. thesis, University of Wisconsin–Madison, 314 p.</em></p>"
+      },
+      "group": "Petroleum and basin research"
+    },
+    {
+      "unique_id": "rossen-sarg-1987-aapg-abstract",
+      "start_date": {
+        "year": 1987,
+        "display_date": "1987"
+      },
+      "text": {
+        "headline": "Rossen and Sarg — 1987 AAPG abstract",
+        "text": "AAPG abstract on Brushy Canyon–Cherry Canyon Tongue sedimentology and regional correlation. Abstract favors turbidity currents over hypersaline density currents based on onlap geometry, channels, and shelfward correlation.\n<p><strong>People:</strong> Christine Rossen, J. F. Sarg</p>\n<p><em>Rossen, C., and Sarg, J.F., 1987, Sedimentology and regional correlation of a basinally restricted deep-water siliciclastic wedge: Brushy Canyon Formation–Cherry Canyon Tongue (Lower Guadalupian), Delaware Basin: AAPG Bulletin, v. 71 (abstract).</em></p>"
+      },
+      "group": "Petroleum and basin research"
+    },
+    {
+      "unique_id": "harms-williamson-1988-dmg",
+      "start_date": {
+        "year": 1988,
+        "display_date": "1988"
+      },
+      "text": {
+        "headline": "Harms and Williamson — DMG saline density currents",
+        "text": "Harms and Williamson argue Delaware Mountain Group siltstones and channelized sandstones (including Brushy and Bell Canyon) were deposited by saline density currents in a density-stratified basin, contrasting with turbidity-current submarine-fan models.\n<p><strong>People:</strong> John C. Harms, Charles R. Williamson</p>\n<p><em>Harms, J.C., and Williamson, C.R., 1988, Deep-water density current deposits of Delaware Mountain Group (Permian), Delaware Basin, Texas and New Mexico: AAPG Bulletin, v. 72, p. 299–317.</em></p>"
+      },
+      "group": "Mid-century frameworks",
+      "media": {
+        "url": "images/harms-williamson-1988-dmg.png",
+        "credit": "TBD — Harms & Williamson 1988 figure",
+        "alt": "Harms and Williamson — DMG saline density currents"
+      }
+    },
+    {
+      "unique_id": "zelt-rossen-1995-atlas",
+      "start_date": {
+        "year": 1995,
+        "display_date": "1995"
+      },
+      "text": {
+        "headline": "Zelt and Rossen — Brushy Canyon in deep-water atlas",
+        "text": "Chapter documenting geometry and continuity of Brushy Canyon deep-water sandstones and siltstones along Guadalupe–Delaware Mountains outcrops.\n<p><strong>People:</strong> F. B. Zelt, Christine Rossen</p>\n<p><em>Zelt, F.B., and Rossen, C., 1995, Geometry and continuity of deep-water sandstones and siltstones, Brushy Canyon Formation (Permian) Delaware Mountains, Texas, in Pickering, K.T., and others, eds., Atlas of Deep Water Environments: Springer.</em></p>"
+      },
+      "group": "Petroleum and basin research"
+    },
+    {
+      "unique_id": "gardner-sonnenfeld-1996-pbs-sepm",
+      "start_date": {
+        "year": 1996,
+        "display_date": "1996"
+      },
+      "text": {
+        "headline": "Gardner and Sonnenfeld — Brushy facies architecture",
+        "text": "PBS-SEPM guidebook paper on stratigraphic changes in facies architecture of Brushy Canyon in Guadalupe Mountains National Park.\n<p><strong>People:</strong> Michael H. Gardner, Mark D. Sonnenfeld</p>\n<p><em>Gardner, M.H., and Sonnenfeld, M.D., 1996, Stratigraphic changes in facies architecture of the Permian Brushy Canyon Formation in Guadalupe Mountains National Park, west Texas, in DeMis, W.D., and Cole, A.G., eds., The Brushy Canyon Play in Outcrop and Subsurface: Concepts and Examples: PBS-SEPM Publication 96-38, p. 17–40.</em></p>"
+      },
+      "group": "Slope and Basin Consortium"
+    },
+    {
+      "unique_id": "mines-johnson-1998-ms",
+      "start_date": {
+        "year": 1998,
+        "display_date": "1998"
+      },
+      "text": {
+        "headline": "Johnson M.S. (Mines) — Brushy outcrop and Cabin Lake reservoir",
+        "text": "Colorado School of Mines M.S. thesis integrating Brushy Canyon outcrop characterization in Guadalupe Mountains National Park with Cabin Lake Field (Eddy County, NM). Advisor: Michael H. Gardner.\n<p><strong>People:</strong> Kyle R. Johnson</p>\n<p><em>Johnson, K.R., 1998, Outcrop and reservoir characterization of the Brushy Canyon formation: Guadalupe Mountains National Park, West Texas, and Cabin Lake field, Eddy County, New Mexico: M.S. thesis, Colorado School of Mines, https://hdl.handle.net/11124/15090</em></p>"
+      },
+      "group": "Slope and Basin Consortium"
+    },
+    {
+      "unique_id": "beaubouef-1999-aapg-cn40",
+      "start_date": {
+        "year": 1999,
+        "display_date": "1999"
+      },
+      "text": {
+        "headline": "Beaubouef et al. — AAPG Course Note Series 40",
+        "text": "AAPG Continuing Education Course Note Series 40 field guide for the April 1999 Hedberg Field Research Conference on Brushy Canyon deep-water sandstones.\n<p><strong>People:</strong> R. T. Beaubouef, Christine Rossen, F. B. Zelt, Morgan D. Sullivan, David C. Mohrig, David C. Jennette</p>\n<p><em>Beaubouef, R.T., Rossen, C., Zelt, F.B., Sullivan, M.D., Mohrig, D.C., and Jennette, D.C., 1999, Deep-water sandstones, Brushy Canyon Formation, West Texas: Field guide for AAPG Hedberg Field Research Conference: AAPG Continuing Education Course Note Series 40, ~48 p., https://doi.org/10.1306/ce40695</em></p>"
+      },
+      "group": "Petroleum and basin research",
+      "background": {
+        "url": "images/beaubouef-1999-aapg-cn40-cover.png",
+        "color": "#1c2420"
+      },
+      "media": {
+        "url": "images/beaubouef-1999-aapg-cn40.png",
+        "credit": "TBD — Beaubouef et al. 1999 / AAPG",
+        "alt": "Beaubouef et al. — AAPG Course Note Series 40"
+      }
+    },
+    {
+      "unique_id": "mines-kullman-1999-ms",
+      "start_date": {
+        "year": 1999,
+        "display_date": "1999"
+      },
+      "text": {
+        "headline": "Kullman M.S. (Mines) — Brushy Canyon fractures",
+        "text": "Colorado School of Mines M.S. thesis on fracture networks and fault-zone features in Brushy Canyon deep-water sandstone. Advisors: Eric P. Nelson; Neil F. Hurley.\n<p><strong>People:</strong> Aaron John Kullman</p>\n<p><em>Kullman, A.J., 1999, Fracture networks and fault zone features in a deep water sandstone, Brushy Canyon formation, West Texas: M.S. thesis, Colorado School of Mines, https://hdl.handle.net/11124/15198</em></p>"
+      },
+      "group": "Petroleum and basin research"
+    },
+    {
+      "unique_id": "carr-gardner-2000-memoir72",
+      "start_date": {
+        "year": 2000,
+        "display_date": "2000"
+      },
+      "text": {
+        "headline": "Carr and Gardner 2000 — lower Brushy basin-floor fan",
+        "text": "Chapter in Fine-Grained Turbidite Systems describing architecture of a sandy lower Brushy Canyon basin-floor fan (sheets, distributary channels, cycle stacking).\n<p><strong>People:</strong> Mary M. Carr, Michael H. Gardner</p>\n<p><em>Carr, M.M., and Gardner, M.H., 2000, Portrait of a basin-floor fan for sandy deepwater systems, Permian Lower Brushy Canyon Formation, West Texas, in Bouma, A.H., and Stone, C.G., eds., Fine-grained turbidite systems: AAPG Memoir 72 / SEPM Special Publication 68, p. 215–231, https://doi.org/10.1306/m72703c20</em></p>"
+      },
+      "group": "Slope and Basin Consortium"
+    },
+    {
+      "unique_id": "gardner-borer-2000-memoir72",
+      "start_date": {
+        "year": 2000,
+        "display_date": "2000"
+      },
+      "text": {
+        "headline": "Gardner and Borer 2000 — slope-to-basin channel architecture",
+        "text": "Chapter in Fine-Grained Turbidite Systems comparing Brushy Canyon channel architecture along a slope-to-basin profile (cut–fill–spill hierarchy).\n<p><strong>People:</strong> Michael H. Gardner, James M. Borer</p>\n<p><em>Gardner, M.H., and Borer, J.M., 2000, Submarine channel architecture along a slope to basin profile, Brushy Canyon Formation, West Texas, in Bouma, A.H., and Stone, C.G., eds., Fine-grained turbidite systems: AAPG Memoir 72 / SEPM Special Publication 68, p. 195–214, https://doi.org/10.1306/m72703c19</em></p>"
+      },
+      "group": "Slope and Basin Consortium"
+    },
+    {
+      "unique_id": "mines-wagerle-2001-ms",
+      "start_date": {
+        "year": 2001,
+        "display_date": "2001"
+      },
+      "text": {
+        "headline": "Wagerle M.S. (Mines) — middle Brushy Canyon architecture",
+        "text": "Colorado School of Mines M.S. thesis on proximal–distal vs along-strike variations in middle Brushy Canyon deep-water architecture, Delaware Mountains. Advisor: Michael H. Gardner.\n<p><strong>People:</strong> Roger N. Wagerle</p>\n<p><em>Wagerle, R.N., 2001, Deciphering proximal-distal from along-strike variations in the deep water architecture of the middle Brushy Canyon formation, Delaware Mountains, West Texas: M.S. thesis, Colorado School of Mines, https://hdl.handle.net/11124/15294</em></p>"
+      },
+      "group": "Slope and Basin Consortium"
+    },
+    {
+      "unique_id": "mines-melick-2002-ms",
+      "start_date": {
+        "year": 2002,
+        "display_date": "2002"
+      },
+      "text": {
+        "headline": "Melick M.S. (Mines) — upper Brushy Canyon facies architecture",
+        "text": "Colorado School of Mines M.S. thesis on facies and sediment-body architecture of upper Brushy Canyon deep-water clastics, central Delaware Mountains. Advisor: Michael H. Gardner.\n<p><strong>People:</strong> Jesse John Melick</p>\n<p><em>Melick, J.J., 2002, Facies and sediment body architecture of Permian deep-water clastics, upper Brushy Canyon, central Delaware Mountains, West Texas, U.S.A.: M.S. thesis, Colorado School of Mines, https://hdl.handle.net/11124/15316</em></p>"
+      },
+      "group": "Slope and Basin Consortium"
+    },
+    {
+      "unique_id": "gardner-etal-2003-mpg",
+      "start_date": {
+        "year": 2003,
+        "display_date": "2003"
+      },
+      "text": {
+        "headline": "Gardner et al. 2003 — process-response model for channels",
+        "text": "Marine and Petroleum Geology paper proposing a stratigraphic process-response model for submarine channels and related features from Brushy Canyon outcrops.\n<p><strong>People:</strong> Michael H. Gardner, James M. Borer, Jesse J. Melick, Nicola Mavilla, Marieke Dechesne, Roger N. Wagerle</p>\n<p><em>Gardner, M.H., Borer, J.M., Melick, J.J., Mavilla, N., Dechesne, M., and Wagerle, R.N., 2003, Stratigraphic process-response model for submarine channels and related features from studies of Permian Brushy Canyon outcrops, West Texas: Marine and Petroleum Geology, v. 20, p. 757–787, https://doi.org/10.1016/j.marpetgeo.2003.07.004</em></p>"
+      },
+      "group": "Slope and Basin Consortium"
+    },
+    {
+      "unique_id": "mines-romans-2003-ms",
+      "start_date": {
+        "year": 2003,
+        "display_date": "2003"
+      },
+      "text": {
+        "headline": "Romans M.S. (Mines) — Cutoff–Brushy–Cherry basinal cycle",
+        "text": "Colorado School of Mines M.S. thesis on sedimentation patterns of a Permian basinal cycle spanning upper Cutoff, Brushy Canyon, and lower Cherry Canyon across the western Delaware Basin. Advisor: Michael H. Gardner.\n<p><strong>People:</strong> Brian W. Romans</p>\n<p><em>Romans, B.W., 2003, Sedimentation patterns of a Permian basinal cycle, upper Cutoff, Brushy Canyon, and lower Cherry Canyon formations, western Delaware basin, west Texas and southeastern New Mexico, U.S.A.: M.S. thesis, Colorado School of Mines, https://hdl.handle.net/11124/15694</em></p>"
+      },
+      "group": "Slope and Basin Consortium"
+    },
+    {
+      "unique_id": "mines-baptista-2004-ms",
+      "start_date": {
+        "year": 2004,
+        "display_date": "2004"
+      },
+      "text": {
+        "headline": "Baptista M.S. (Mines) — Brushy Canyon basin-wide framework",
+        "text": "Colorado School of Mines M.S. thesis on deep-water depositional patterns and sequence stratigraphy of Brushy Canyon across the Delaware Basin. Advisor: Michael H. Gardner.\n<p><strong>People:</strong> Noelia del Valle Baptista Brito</p>\n<p><em>Baptista Brito, N. del V., 2004, Deep-water depositional patterns and sequence stratigraphic framework of the Permian Brushy Canyon formation across the Delaware Basin, West Texas and Southeastern New Mexico, U.S.A.: M.S. thesis, Colorado School of Mines, https://hdl.handle.net/11124/16747</em></p>"
+      },
+      "group": "Slope and Basin Consortium"
+    },
+    {
+      "unique_id": "mines-borer-2005-phd",
+      "start_date": {
+        "year": 2005,
+        "display_date": "2005"
+      },
+      "text": {
+        "headline": "Borer Ph.D. (Mines) — middle Brushy Canyon channel modeling",
+        "text": "Colorado School of Mines Ph.D. dissertation on outcrop analysis and geologic modeling of submarine channels and related strata, middle Brushy Canyon. Advisors: Michael H. Gardner; Timothy A. Cross.\n<p><strong>People:</strong> James M. Borer</p>\n<p><em>Borer, J.M., 2005, Outcrop analysis and geologic modeling of submarine channels and related strata, Permian middle Brushy Canyon formation, West Texas, USA: Ph.D. dissertation, Colorado School of Mines, https://hdl.handle.net/11124/177744</em></p>"
+      },
+      "group": "Slope and Basin Consortium"
+    },
+    {
+      "unique_id": "mines-kling-2006-phd",
+      "start_date": {
+        "year": 2006,
+        "display_date": "2006"
+      },
+      "text": {
+        "headline": "Kling Ph.D. (Mines) — Brushy Canyon starved margin",
+        "text": "Colorado School of Mines Ph.D. dissertation on deep-marine sedimentation patterns along a starved basin margin, Brushy Canyon, southern Delaware Mountains. Advisor: Michael H. Gardner.\n<p><strong>People:</strong> Erik R. Kling</p>\n<p><em>Kling, E.R., 2006, Patterns of deep marine sedimentation along a starved basin margin, Permian Brushy Canyon Formation, southern Delaware Mountains, West Texas, USA: Ph.D. dissertation, Colorado School of Mines, https://hdl.handle.net/11124/177784</em></p>"
+      },
+      "group": "Slope and Basin Consortium"
+    },
+    {
+      "unique_id": "mines-hanggoro-2007-ms",
+      "start_date": {
+        "year": 2007,
+        "display_date": "2007"
+      },
+      "text": {
+        "headline": "Hanggoro M.S. (Mines) — lower Brushy Canyon slope channels",
+        "text": "Colorado School of Mines M.S. thesis on facies and architecture of sandy slope channels, lower Brushy Canyon, Bitterwell Mountains. Advisor: Michael H. Gardner.\n<p><strong>People:</strong> Diah Hanggoro</p>\n<p><em>Hanggoro, D., 2007, Facies and architecture of sandy slope channels, Permian lower Brushy Canyon formation, Bitterwell Mountains, West Texas USA: M.S. thesis, Colorado School of Mines, https://hdl.handle.net/11124/15998</em></p>"
+      },
+      "group": "Slope and Basin Consortium"
+    }
+  ],
+  "scale": "human"
+}

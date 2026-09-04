@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brushy Canyon — The West Face</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-brushy">
+  <header class="subnav">
+    <a class="subnav-brand" href="index.html">The West Face</a>
+    <p class="subnav-title">Brushy Canyon · TimelineJS · 22 events</p>
+    <a class="subnav-back" href="index.html">← Full Guads timeline</a>
+  </header>
+  <div id="timeline-embed" class="brushy-embed"></div>
+  <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+  <script>
+    window.addEventListener("load", function () {
+      window.timeline = new TL.Timeline("timeline-embed", "brushy-timeline.json", {
+        hash_bookmark: true,
+        initial_zoom: 2,
+        timenav_height_percentage: 28
+      });
+    });
+  </script>
+</body>
+</html>
