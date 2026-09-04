@@ -21,8 +21,7 @@ ASSETS = ROOT / "assets" / "images"
 OUT = ROOT / "docs"
 BANNER_SRC = ASSETS / "2025-banner-west-face.jpg"
 BANNER_DEST_NAME = "2025-banner-west-face.jpg"
-HERO_SRC = ASSETS / "1948-king-pp215.png"
-HERO_DEST_NAME = "1948-king-pp215.png"
+BRUSHY_HERO_NAME = "1948-king-pp215.png"
 BRUSHY_FORMATION = "brushy_canyon"
 # Full-bleed slide backgrounds (cover-style). Keyed by event id.
 SLIDE_BACKGROUNDS = {
@@ -104,7 +103,7 @@ def image_web_path(filename: str | None) -> str | None:
 
 
 def collect_image_files(events: list[dict]) -> set[str]:
-    names = {BANNER_DEST_NAME, HERO_DEST_NAME}
+    names = {BANNER_DEST_NAME, BRUSHY_HERO_NAME}
     for ev in events:
         img = (ev.get("image") or "").strip()
         if img:
@@ -223,9 +222,9 @@ def build_brushy_timeline_json(events: list[dict], era_labels: dict) -> dict:
             ),
         },
         "background": {
-            "url": f"images/{BANNER_DEST_NAME}",
+            "url": f"images/{BRUSHY_HERO_NAME}",
             "color": "#1c2420",
-            "alt": "Western escarpment of the Guadalupe Mountains",
+            "alt": "King 1948 USGS Professional Paper 215 plate — El Capitan to Shumard Peak",
         },
     }
     return {
@@ -363,7 +362,7 @@ def build() -> Path:
 </head>
 <body>
   <header class="hero">
-    <div class="hero-photo" role="img" aria-label="King 1948 USGS Professional Paper 215 plate — El Capitan to Shumard Peak"></div>
+    <div class="hero-photo" role="img" aria-label="Western escarpment of the Guadalupe Mountains"></div>
     <div class="hero-veil"></div>
     <div class="hero-inner">
       <p class="hero-brand">The West Face</p>
