@@ -48,9 +48,10 @@ code {
   position: absolute;
   inset: 0;
   background:
-    url("images/2025-banner-west-face.jpg") center / cover no-repeat;
+    url("images/1948-king-pp215.png") center 42% / cover no-repeat;
+  filter: brightness(0.92) contrast(1.05);
   transform: scale(1.04);
-  animation: hero- ken 28s ease-in-out infinite alternate;
+  animation: hero-ken 28s ease-in-out infinite alternate;
 }
 
 @keyframes hero-ken {
@@ -64,9 +65,9 @@ code {
   background:
     linear-gradient(
       to top,
-      rgba(12, 16, 14, 0.78) 0%,
-      rgba(12, 16, 14, 0.35) 42%,
-      rgba(12, 16, 14, 0.2) 100%
+      rgba(12, 16, 14, 0.9) 0%,
+      rgba(12, 16, 14, 0.55) 40%,
+      rgba(12, 16, 14, 0.4) 100%
     );
 }
 
