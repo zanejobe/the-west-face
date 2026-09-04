@@ -49,7 +49,12 @@
         "headline": "Hayes — USGS Professional Paper 446 New Mexico Guadalupes",
         "text": "USGS Professional Paper 446 maps Guadalupe Mountains geology in New Mexico and discusses Delaware Mountain Group / Capitan shelf–reef–basin relations north of King&#x27;s Texas map area.\n<p><strong>People:</strong> Philip T. Hayes</p>\n<p><em>Hayes, P.T., 1964, Geology of the Guadalupe Mountains, New Mexico: USGS Professional Paper 446, 69 p., https://doi.org/10.3133/pp446</em></p>"
       },
-      "group": "USGS mapping era"
+      "group": "USGS mapping era",
+      "media": {
+        "url": "images/1964-hayes.png",
+        "credit": "TBD — confirm rights (likely USGS PP 446)",
+        "alt": "Hayes — USGS Professional Paper 446 New Mexico Guadalupes"
+      }
     },
     {
       "unique_id": "harms-1974-brushy-density",
@@ -372,7 +377,12 @@
         "headline": "Pyles et al. 2010 — Beacon Channel Complex 3D outcrop",
         "text": "JSR paper documenting high-resolution 3D stratigraphy of the Beacon Channel Complex (upper Brushy Canyon), including hierarchical channel stories, sweep/swing migration, and concepts for sinuous slope-channel reservoirs; builds on the 2007 atlas chapter.\n<p><strong>People:</strong> David R. Pyles, David C. Jennette, Mark Tomasso, Rick T. Beaubouef, Christine Rossen</p>\n<p><em>Pyles, D.R., Jennette, D.C., Tomasso, M., Beaubouef, R.T., and Rossen, C., 2010, Concepts learned from a 3D outcrop of a sinuous slope channel complex: Beacon Channel Complex, Brushy Canyon Formation, West Texas, U.S.A.: Journal of Sedimentary Research, v. 80, p. 67–96, https://doi.org/10.2110/jsr.2010.009</em></p>"
       },
-      "group": "Modern methods"
+      "group": "Modern methods",
+      "media": {
+        "url": "images/2010-pyles.png",
+        "credit": "TBD — Pyles et al. 2010 JSR figure",
+        "alt": "Pyles et al. 2010 — Beacon Channel Complex 3D outcrop"
+      }
     },
     {
       "unique_id": "no-2021-brushy-pay-zone-ksmer",

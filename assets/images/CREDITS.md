@@ -7,6 +7,8 @@ Naming: `{year}-{slug}.ext` (optional `-cover`, `-map`, etc.) so files sort by d
 | File | Source | License / rights | Notes |
 |---|---|---|---|
 | `1948-king-pp215.png` | TBD (likely USGS PP 215 figure / plate) | TBD — confirm USGS public domain vs scan rights | Wired to `king-1948-pp215` (cover-style); Brushy TimelineJS title hero. |
+| `1964-hayes.png` | TBD (likely USGS PP 446 figure) | TBD — confirm USGS public domain vs scan rights | Wired to `hayes-1964-pp446`. |
+| `2010-pyles.png` | TBD (Pyles et al. 2010 JSR figure) | TBD — SEPM/JSR | Wired to `pyles-etal-2010-beacon-channel-jsr`. |
 | `1974-harms-brushy-density.png` | TBD (Harms 1974 figure) | TBD — fair use / publisher rights | Wired to `harms-1974-brushy-density`. |
 | `1988-harms-williamson-dmg.png` | TBD (Harms & Williamson 1988 figure) | TBD | Wired to `harms-williamson-1988-dmg`. |
 | `1999-beaubouef-aapg-cn40.png` | TBD (Beaubouef et al. 1999 figure) | TBD — AAPG | Wired to `beaubouef-1999-aapg-cn40`. |
