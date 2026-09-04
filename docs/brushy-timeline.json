@@ -5,7 +5,7 @@
       "text": "A TimelineJS view of events tagged <em>Brushy Canyon Formation</em> in The West Face dataset — names, maps, process models, and Mines theses."
     },
     "background": {
-      "url": "images/banner-west-face.jpg",
+      "url": "images/2025-banner-west-face.jpg",
       "color": "#1c2420",
       "alt": "Western escarpment of the Guadalupe Mountains"
     }
@@ -35,7 +35,7 @@
       },
       "group": "USGS mapping era",
       "background": {
-        "url": "images/king-1948-pp215.png",
+        "url": "images/1948-king-pp215.png",
         "color": "#1c2420"
       }
     },
@@ -63,7 +63,7 @@
       },
       "group": "Mid-century frameworks",
       "media": {
-        "url": "images/harms-1974-brushy-density.png",
+        "url": "images/1974-harms-brushy-density.png",
         "credit": "TBD — Harms 1974 figure",
         "alt": "Harms — Brushy Canyon deep-water density-current deposit"
       }
@@ -104,10 +104,34 @@
       },
       "group": "Mid-century frameworks",
       "media": {
-        "url": "images/harms-williamson-1988-dmg.png",
+        "url": "images/1988-harms-williamson-dmg.png",
         "credit": "TBD — Harms & Williamson 1988 figure",
         "alt": "Harms and Williamson — DMG saline density currents"
       }
+    },
+    {
+      "unique_id": "gardner-1992-wtgs-dmg-turbidites",
+      "start_date": {
+        "year": 1992,
+        "display_date": "1992"
+      },
+      "text": {
+        "headline": "Gardner 1992 — eolian-derived DMG turbidites",
+        "text": "WTGS symposium paper linking Delaware Mountain Group deep-water sandstones to eolian-derived turbidites along an arid carbonate platform, and discussing impacts on hydrocarbon recovery in DMG reservoirs (including Brushy Canyon-scale cyclicity).\n<p><strong>People:</strong> Michael H. Gardner</p>\n<p><em>Gardner, M.H., 1992, Sequence stratigraphy of eolian-derived turbidites: deep water sedimentation patterns along an arid carbonate platform and their impact on hydrocarbon recovery in Delaware Mountain Group reservoirs, west Texas, in Mruk, D.H., and Curran, B.C., eds., Permian Basin Exploration and Production Strategies: Applications of Sequence Stratigraphic and Reservoir Characterization Concepts: West Texas Geological Society, Inc. Symposium, Publication 92-91, p. 7–11.</em></p>"
+      },
+      "group": "Petroleum and basin research"
+    },
+    {
+      "unique_id": "doe-nash-draw-1995-brushy-class-iii",
+      "start_date": {
+        "year": 1995,
+        "display_date": "1995"
+      },
+      "text": {
+        "headline": "DOE Class III — Nash Draw Brushy Canyon Pool",
+        "text": "U.S. DOE Class III field demonstration (DE-FC22-95BC14941) at Nash Draw Pool, Eddy County, NM — integrated geology, engineering, and 3-D seismic to improve recovery from low-permeability Brushy Canyon slope–basin sandstones; later SPE papers emphasize compartmentalization and sweet-spot targeting.\n<p><strong>People:</strong> F. David Martin, Mark B. Murphy, Bruce A. Stubbs, Bruce J. Uszynski, Bob A. Hardage, William W. Weiss</p>\n<p><em>Martin, F.D., Murphy, M.B., Stubbs, B.A., Uszynski, B.J., Hardage, B.A., Kendall, R.P., Whitney, E.M., and Weiss, W.W., 1997, Reservoir characterization as a risk reduction tool at the Nash Draw Pool: SPE paper 38916 / later SPE Reservoir Evaluation &amp; Engineering (SPE 56007-PA). DOE Cooperative Agreement DE-FC22-95BC14941.</em></p>"
+      },
+      "group": "Petroleum and basin research"
     },
     {
       "unique_id": "zelt-rossen-1995-atlas",
@@ -129,9 +153,21 @@
       },
       "text": {
         "headline": "Gardner and Sonnenfeld — Brushy facies architecture",
-        "text": "PBS-SEPM guidebook paper on stratigraphic changes in facies architecture of Brushy Canyon in Guadalupe Mountains National Park.\n<p><strong>People:</strong> Michael H. Gardner, Mark D. Sonnenfeld</p>\n<p><em>Gardner, M.H., and Sonnenfeld, M.D., 1996, Stratigraphic changes in facies architecture of the Permian Brushy Canyon Formation in Guadalupe Mountains National Park, west Texas, in DeMis, W.D., and Cole, A.G., eds., The Brushy Canyon Play in Outcrop and Subsurface: Concepts and Examples: PBS-SEPM Publication 96-38, p. 17–40.</em></p>"
+        "text": "PBS-SEPM / SEPM Permian Basin Section guidebook paper on stratigraphic changes in facies architecture of Brushy Canyon in Guadalupe Mountains National Park.\n<p><strong>People:</strong> Michael H. Gardner, Mark D. Sonnenfeld</p>\n<p><em>Gardner, M.H., and Sonnenfeld, M.D., 1996, Stratigraphic changes in architecture of the Permian Brushy Canyon Formation in Guadalupe Mountains National Park, west Texas, in DeMis, W.D., and Cole, A.G., eds., The Brushy Canyon Play in Outcrop and Subsurface: Concepts and Examples: SEPM, Permian Basin Section, Guidebook, Publication 96-38, p. 17–40.</em></p>"
       },
       "group": "Slope and Basin Consortium"
+    },
+    {
+      "unique_id": "hardage-etal-1998-brushy-3d-seismic",
+      "start_date": {
+        "year": 1998,
+        "display_date": "1998"
+      },
+      "text": {
+        "headline": "Hardage et al. 1998 — Brushy Canyon 3-D seismic imaging",
+        "text": "Geophysics paper from the Nash Draw DOE effort on 3-D seismic imaging and interpretation of thin-bed Brushy Canyon slope and basin reservoirs in the northwest Delaware Basin.\n<p><strong>People:</strong> Bob A. Hardage, James L. Simmons Jr., Virginia M. Pendleton, Bruce A. Stubbs, Bruce J. Uszynski</p>\n<p><em>Hardage, B.A., Simmons, J.L., Jr., Pendleton, V.M., Stubbs, B.A., and Uszynski, B.J., 1998, 3-D seismic imaging and interpretation of Brushy Canyon slope and basin thin-bed reservoirs, northwest Delaware Basin: Geophysics, v. 63, no. 5, p. 1507–1519, https://doi.org/10.1190/1.1444447</em></p>"
+      },
+      "group": "Petroleum and basin research"
     },
     {
       "unique_id": "mines-johnson-1998-ms",
@@ -157,11 +193,11 @@
       },
       "group": "Petroleum and basin research",
       "background": {
-        "url": "images/beaubouef-1999-aapg-cn40-cover.png",
+        "url": "images/1999-beaubouef-aapg-cn40-cover.png",
         "color": "#1c2420"
       },
       "media": {
-        "url": "images/beaubouef-1999-aapg-cn40.png",
+        "url": "images/1999-beaubouef-aapg-cn40.png",
         "credit": "TBD — Beaubouef et al. 1999 / AAPG",
         "alt": "Beaubouef et al. — AAPG Course Note Series 40"
       }
@@ -263,6 +299,18 @@
       "group": "Slope and Basin Consortium"
     },
     {
+      "unique_id": "bohacs-etal-2005-source-rock-paths",
+      "start_date": {
+        "year": 2005,
+        "display_date": "2005"
+      },
+      "text": {
+        "headline": "Bohacs et al. 2005 — production, destruction, dilution",
+        "text": "SEPM Special Publication 82 chapter framing organic-matter enrichment as production − (destruction + dilution). A widely cited source-rock pathway model applied in mudstone and petroleum-system discussions, including Delaware Basin / Brushy Canyon source–reservoir contexts.\n<p><strong>People:</strong> Kevin M. Bohacs, George J. Grabowski Jr., Alan R. Carroll, Paul J. Mankiewicz, Kimberlee J. Miskell-Gerhardt, Jon R. Schwalbach, Mary Beth Wegner, J. A. Simó</p>\n<p><em>Bohacs, K.M., Grabowski, G.J., Jr., Carroll, A.R., Mankiewicz, P.J., Miskell-Gerhardt, K.J., Schwalbach, J.R., Wegner, M.B., and Simó, J.A., 2005, Production, Destruction, and Dilution—The Many Paths to Source-Rock Development, in Harris, N.B., ed., The Deposition of Organic-Carbon-Rich Sediments: Models, Mechanisms, and Consequences: SEPM Special Publication 82, p. 61–101, https://doi.org/10.2110/pec.05.82.0061</em></p>"
+      },
+      "group": "Petroleum and basin research"
+    },
+    {
       "unique_id": "mines-borer-2005-phd",
       "start_date": {
         "year": 2005,
@@ -287,6 +335,22 @@
       "group": "Slope and Basin Consortium"
     },
     {
+      "unique_id": "atlas-deep-water-outcrops-2007-aapg-sg56",
+      "start_date": {
+        "year": 2007,
+        "display_date": "2007"
+      },
+      "text": {
+        "headline": "AAPG Atlas of Deep-Water Outcrops (SG 56)",
+        "text": "AAPG Studies in Geology 56 outcrop atlas compiling global deep-water case studies. Includes multiple Brushy Canyon chapters (among them Beacon Channel and related Guadalupe–Delaware Mountains examples) rather than a single paper entry.\n<p><strong>People:</strong> Tor H. Nilsen, Roger D. Shew, Gary S. Steffens, Joseph R. J. Studlick</p>\n<p><em>Nilsen, T.H., Shew, R.D., Steffens, G.S., and Studlick, J.R.J., eds., 2007, Atlas of Deep-Water Outcrops: AAPG Studies in Geology 56, https://doi.org/10.1306/St561240</em></p>"
+      },
+      "group": "Petroleum and basin research",
+      "background": {
+        "url": "images/2007-atlas-deep-water-outcrops.jpeg",
+        "color": "#1c2420"
+      }
+    },
+    {
       "unique_id": "mines-hanggoro-2007-ms",
       "start_date": {
         "year": 2007,
@@ -297,6 +361,30 @@
         "text": "Colorado School of Mines M.S. thesis on facies and architecture of sandy slope channels, lower Brushy Canyon, Bitterwell Mountains. Advisor: Michael H. Gardner.\n<p><strong>People:</strong> Diah Hanggoro</p>\n<p><em>Hanggoro, D., 2007, Facies and architecture of sandy slope channels, Permian lower Brushy Canyon formation, Bitterwell Mountains, West Texas USA: M.S. thesis, Colorado School of Mines, https://hdl.handle.net/11124/15998</em></p>"
       },
       "group": "Slope and Basin Consortium"
+    },
+    {
+      "unique_id": "pyles-etal-2010-beacon-channel-jsr",
+      "start_date": {
+        "year": 2010,
+        "display_date": "2010"
+      },
+      "text": {
+        "headline": "Pyles et al. 2010 — Beacon Channel Complex 3D outcrop",
+        "text": "JSR paper documenting high-resolution 3D stratigraphy of the Beacon Channel Complex (upper Brushy Canyon), including hierarchical channel stories, sweep/swing migration, and concepts for sinuous slope-channel reservoirs; builds on the 2007 atlas chapter.\n<p><strong>People:</strong> David R. Pyles, David C. Jennette, Mark Tomasso, Rick T. Beaubouef, Christine Rossen</p>\n<p><em>Pyles, D.R., Jennette, D.C., Tomasso, M., Beaubouef, R.T., and Rossen, C., 2010, Concepts learned from a 3D outcrop of a sinuous slope channel complex: Beacon Channel Complex, Brushy Canyon Formation, West Texas, U.S.A.: Journal of Sedimentary Research, v. 80, p. 67–96, https://doi.org/10.2110/jsr.2010.009</em></p>"
+      },
+      "group": "Modern methods"
+    },
+    {
+      "unique_id": "no-2021-brushy-pay-zone-ksmer",
+      "start_date": {
+        "year": 2021,
+        "display_date": "2021"
+      },
+      "text": {
+        "headline": "No 2021 — Brushy Canyon oil pay-zone characteristics",
+        "text": "Technical report on geophysical characteristics of Brushy Canyon oil pay zones in the Delaware Basin (channel–levee–lobe complexes sealed by organic-rich siltstone), with log examples from Roadrunner #2.\n<p><strong>People:</strong> Young-Hwa No</p>\n<p><em>No, Y.-H., 2021, Study on the Characteristics of Oil Pay Zone in the Brushy Canyon Formation, Delaware Mountain Group of the Delaware Basin: Journal of the Korean Society of Mineral and Energy Resources Engineers, v. 58, no. 2, p. 179–190, https://doi.org/10.32390/ksmer.2021.58.2.179</em></p>"
+      },
+      "group": "Modern methods"
     }
   ],
   "scale": "human"

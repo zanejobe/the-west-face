@@ -19,17 +19,19 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 ASSETS = ROOT / "assets" / "images"
 OUT = ROOT / "docs"
-BANNER_SRC = ASSETS / "banner-west-face.jpg"
-BANNER_DEST_NAME = "banner-west-face.jpg"
+BANNER_SRC = ASSETS / "2025-banner-west-face.jpg"
+BANNER_DEST_NAME = "2025-banner-west-face.jpg"
 BRUSHY_FORMATION = "brushy_canyon"
 # Full-bleed slide backgrounds (cover-style). Keyed by event id.
 SLIDE_BACKGROUNDS = {
-    "king-1948-pp215": "king-1948-pp215.png",
-    "beaubouef-1999-aapg-cn40": "beaubouef-1999-aapg-cn40-cover.png",
+    "king-1948-pp215": "1948-king-pp215.png",
+    "beaubouef-1999-aapg-cn40": "1999-beaubouef-aapg-cn40-cover.png",
+    "atlas-deep-water-outcrops-2007-aapg-sg56": "2007-atlas-deep-water-outcrops.jpeg",
 }
 # When True, CSV image is only used as background (not TimelineJS side media).
 COVER_STYLE_ONLY = {
     "king-1948-pp215",
+    "atlas-deep-water-outcrops-2007-aapg-sg56",
 }
 
 BRANCH_COLORS = {

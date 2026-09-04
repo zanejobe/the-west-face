@@ -20,7 +20,7 @@ Multi-select tags use **semicolon-separated** ids (no spaces around `;` preferre
 | `branch_primary` | no | One branch for default lane color when multi-tagged |
 | `formations` | no | Formation tags from `data/formations.yaml`; blank = Guads-wide / not unit-specific |
 | `importance` | yes | `1` full only; `2` web; `3` poster + PPT highlight |
-| `image` | no | Path under `assets/images/` |
+| `image` | no | Filename under `assets/images/` (`{year}-{slug}.ext`) |
 | `image_credit` | no | Credit / rights string |
 
 ## Eras vs branches vs formations
