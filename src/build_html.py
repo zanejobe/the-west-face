@@ -272,7 +272,7 @@ def build_brushy_page(n_events: int) -> str:
   <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
   <script>
     window.addEventListener("load", function () {{
-      window.timeline = new TL.Timeline("timeline-embed", "brushy-timeline.json?v=6", {{
+      window.timeline = new TL.Timeline("timeline-embed", "brushy-timeline.json?v=7", {{
         hash_bookmark: true,
         initial_zoom: 1,
         scale_factor: 1,

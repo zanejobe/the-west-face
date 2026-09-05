@@ -17,6 +17,7 @@ Naming: `{year}-{slug}.ext` (optional `-cover`, `-map`, etc.) so files sort by d
 | `1988-harms-williamson-dmg.png` | TBD (Harms & Williamson 1988 figure) | TBD | Wired to `harms-williamson-1988-dmg`. |
 | `1999-beaubouef-aapg-cn40.png` | TBD (Beaubouef et al. 1999 figure) | TBD — AAPG | Wired to `beaubouef-1999-aapg-cn40`. |
 | `1999-beaubouef-aapg-cn40-cover.png` | TBD (course-note cover / front matter) | TBD — AAPG | Secondary background for same event. |
+| `2000-batzle.png` | Batzle & Gardner 2000 AAPG Memoir 72 Fig. (Brushy slope Vp histogram) | TBD — AAPG/SEPM | Wired to `batzle-gardner-2000-memoir72-seismic`. |
 | `2007-atlas-deep-water-outcrops.jpeg` | TBD (AAPG Studies in Geology 56 atlas) | TBD — AAPG | Wired to `atlas-deep-water-outcrops-2007-aapg-sg56` (cover-style). |
 | `2025-banner-west-face.jpg` | Derived from `originals/2025-11-13-west-face-escarpment.jpeg` | Zane Jobe; all rights reserved unless noted | Front-page hero (~249 KB, 2000×649). |
 | `originals/2025-11-07-guadalupe-outcrop.jpeg` | Zane Jobe (iPhone, 2025-11-07) | All rights reserved unless noted | Full-res (~16 MB). Not wired yet. |

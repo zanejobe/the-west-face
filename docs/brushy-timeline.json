@@ -249,6 +249,23 @@
       "group": "Petroleum and basin research"
     },
     {
+      "unique_id": "batzle-gardner-2000-memoir72-seismic",
+      "start_date": {
+        "year": 2000,
+        "display_date": "2000"
+      },
+      "text": {
+        "headline": "Batzle and Gardner 2000 — Brushy Canyon seismic lithology/fluid models",
+        "text": "AAPG Memoir 72 / SEPM SP 68 chapter building outcrop-based seismic models of Brushy Canyon along the western escarpment to test sensitivity to lithology, fluid, and pressure — showing when hydrocarbons brighten or dim amplitudes relative to lithology effects.\n<p><strong>People:</strong> Michael Batzle, Michael H. Gardner</p>\n<p><em>Batzle, M., and Gardner, M.H., 2000, Lithology and fluids: seismic models of the Brushy Canyon Formation, West Texas, in Bouma, A.H., and Stone, C.G., eds., Fine-grained turbidite systems: AAPG Memoir 72 / SEPM Special Publication 68, p. 127–141, https://doi.org/10.1306/M72703C12</em></p>"
+      },
+      "group": "Slope and Basin Consortium",
+      "media": {
+        "url": "images/2000-batzle.png",
+        "credit": "Batzle and Gardner 2000 — Brushy slope compressional-velocity lithology histogram",
+        "alt": "Batzle and Gardner 2000 — Brushy Canyon seismic lithology/fluid models"
+      }
+    },
+    {
       "unique_id": "carr-gardner-2000-memoir72",
       "start_date": {
         "year": 2000,
