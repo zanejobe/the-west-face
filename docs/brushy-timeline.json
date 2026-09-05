@@ -168,6 +168,30 @@
       "group": "Slope and Basin Consortium"
     },
     {
+      "unique_id": "gardner-1997-beg-ri241-bell-cherry",
+      "start_date": {
+        "year": 1997,
+        "display_date": "1997"
+      },
+      "text": {
+        "headline": "Gardner 1997a — Bell and Cherry Canyon deep-water reservoirs (BEG RI 241)",
+        "text": "BEG Report of Investigations 241 (SLERO / Texas State Lands) chapter characterizing deep-water siliciclastic reservoirs in upper Bell Canyon and Cherry Canyon of the northern Delaware Basin (Culberson and Reeves Counties). Companion piece to Gardner&#x27;s DMG sequence-stratigraphy chapter in the same volume.\n<p><strong>People:</strong> Michael H. Gardner</p>\n<p><em>Gardner, M.H., 1997, Characterization of deep-water siliciclastic reservoirs in the upper Bell Canyon and Cherry Canyon Formations of the northern Delaware Basin, Culberson and Reeves Counties, Texas, in Major, R.P., ed., Oil and gas on Texas State Lands: an assessment of the resource and characterization of type reservoirs: The University of Texas at Austin, Bureau of Economic Geology Report of Investigations No. 241, p. 137–146, https://doi.org/10.23867/RI0241D (https://store.beg.utexas.edu/publications/report-of-investigations/ri0241).</em></p>"
+      },
+      "group": "Petroleum and basin research"
+    },
+    {
+      "unique_id": "gardner-1997-beg-ri241-dmg-sequence",
+      "start_date": {
+        "year": 1997,
+        "display_date": "1997"
+      },
+      "text": {
+        "headline": "Gardner 1997b — DMG sequence stratigraphy and hydrocarbon habitat (BEG RI 241)",
+        "text": "BEG RI 241 chapter synthesizing sequence stratigraphy and hydrocarbon habitat of the Permian (Guadalupian) Delaware Mountain Group (Brushy–Cherry–Bell) in the Delaware Basin — a widely cited bridge from Gardner&#x27;s outcrop frameworks to State Lands / SLERO reservoir context.\n<p><strong>People:</strong> Michael H. Gardner</p>\n<p><em>Gardner, M.H., 1997, Sequence stratigraphy and hydrocarbon habitat of the Permian (Guadalupian) Delaware Mountain Group, Delaware Basin, West Texas, in Major, R.P., ed., Oil and gas on Texas State Lands: an assessment of the resource and characterization of type reservoirs: The University of Texas at Austin, Bureau of Economic Geology Report of Investigations No. 241, p. 147–157, https://doi.org/10.23867/RI0241D (https://store.beg.utexas.edu/publications/report-of-investigations/ri0241).</em></p>"
+      },
+      "group": "Petroleum and basin research"
+    },
+    {
       "unique_id": "hardage-etal-1998-brushy-3d-seismic",
       "start_date": {
         "year": 1998,
