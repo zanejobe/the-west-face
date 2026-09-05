@@ -129,7 +129,12 @@
         "headline": "Gardner 1992 — eolian-derived DMG turbidites",
         "text": "WTGS symposium paper linking Delaware Mountain Group deep-water sandstones to eolian-derived turbidites along an arid carbonate platform, and discussing impacts on hydrocarbon recovery in DMG reservoirs (including Brushy Canyon-scale cyclicity).\n<p><strong>People:</strong> Michael H. Gardner</p>\n<p><em>Gardner, M.H., 1992, Sequence stratigraphy of eolian-derived turbidites: deep water sedimentation patterns along an arid carbonate platform and their impact on hydrocarbon recovery in Delaware Mountain Group reservoirs, west Texas, in Mruk, D.H., and Curran, B.C., eds., Permian Basin Exploration and Production Strategies: Applications of Sequence Stratigraphic and Reservoir Characterization Concepts: West Texas Geological Society, Inc. Symposium, Publication 92-91, p. 7–11.</em></p>"
       },
-      "group": "Petroleum and basin research"
+      "group": "Petroleum and basin research",
+      "media": {
+        "url": "images/1992-gardner.png",
+        "credit": "Gardner 1992 — eolian-derived turbidite model for Delaware Basin",
+        "alt": "Gardner 1992 — eolian-derived DMG turbidites"
+      }
     },
     {
       "unique_id": "doe-nash-draw-1995-brushy-class-iii",
@@ -214,6 +219,23 @@
         "text": "Colorado School of Mines M.S. thesis integrating Brushy Canyon outcrop characterization in Guadalupe Mountains National Park with Cabin Lake Field (Eddy County, NM). Advisor: Michael H. Gardner.\n<p><strong>People:</strong> Kyle R. Johnson</p>\n<p><em>Johnson, K.R., 1998, Outcrop and reservoir characterization of the Brushy Canyon formation: Guadalupe Mountains National Park, West Texas, and Cabin Lake field, Eddy County, New Mexico: M.S. thesis, Colorado School of Mines, https://hdl.handle.net/11124/15090</em></p>"
       },
       "group": "Slope and Basin Consortium"
+    },
+    {
+      "unique_id": "sageman-etal-1998-geology-brushy-org",
+      "start_date": {
+        "year": 1998,
+        "display_date": "1998"
+      },
+      "text": {
+        "headline": "Sageman et al. 1998 — organic-rich siltstone hierarchy in Brushy Canyon",
+        "text": "Geology paper documenting a stratigraphic hierarchy of organic-rich siltstones in Brushy Canyon deep-water facies (Rest Area Gully and related western-escarpment sections), tying TOC/HI trends to 3rd–5th-order cycles and sediment starvation vs dilution.\n<p><strong>People:</strong> Bradley B. Sageman, Michael H. Gardner, John M. Armentrout, Adam E. Murphy</p>\n<p><em>Sageman, B.B., Gardner, M.H., Armentrout, J.M., and Murphy, A.E., 1998, Stratigraphic hierarchy of organic carbon–rich siltstones in deep-water facies, Brushy Canyon Formation (Guadalupian), Delaware Basin, West Texas: Geology, v. 26, no. 5, p. 451–454, https://doi.org/10.1130/0091-7613(1998)026%3C0451:SHOOCR%3E2.3.CO;2</em></p>"
+      },
+      "group": "Slope and Basin Consortium",
+      "media": {
+        "url": "images/1998-sageman.png",
+        "credit": "Sageman et al. 1998 — Rest Area Gully TOC/HI and relative sea-level figure",
+        "alt": "Sageman et al. 1998 — organic-rich siltstone hierarchy in Brushy Canyon"
+      }
     },
     {
       "unique_id": "beaubouef-1999-aapg-cn40",

@@ -15,7 +15,11 @@ Naming: `{year}-{slug}.ext` (optional `-cover`, `-map`, etc.) so files sort by d
 | `2010-pyles.png` | TBD (Pyles et al. 2010 JSR figure) | TBD — SEPM/JSR | Wired to `pyles-etal-2010-beacon-channel-jsr`. |
 | `1974-harms-brushy-density.png` | TBD (Harms 1974 figure) | TBD — fair use / publisher rights | Wired to `harms-1974-brushy-density`. |
 | `1988-harms-williamson-dmg.png` | TBD (Harms & Williamson 1988 figure) | TBD | Wired to `harms-williamson-1988-dmg`. |
+| `1992-gardner.png` | Gardner 1992 WTGS Fig. 4 (eolian-derived turbidite model) | TBD — WTGS | Wired to `gardner-1992-wtgs-dmg-turbidites`. |
+| `1998-sageman.png` | Sageman et al. 1998 Geology Fig. 3 (Rest Area Gully) | TBD — GSA | Wired to `sageman-etal-1998-geology-brushy-org`. |
 | `1999-beaubouef-aapg-cn40.png` | TBD (Beaubouef et al. 1999 figure) | TBD — AAPG | Wired to `beaubouef-1999-aapg-cn40`. |
+| `1992-gardner.png` | Gardner 1992 WTGS Fig. 4 (eolian-derived turbidite model) | TBD — WTGS | Wired to `gardner-1992-wtgs-dmg-turbidites`. |
+| `1998-sageman.png` | Sageman et al. 1998 Geology Fig. 3 (Rest Area Gully) | TBD — GSA | Wired to `sageman-etal-1998-geology-brushy-org`. |
 | `1999-beaubouef-aapg-cn40-cover.png` | TBD (course-note cover / front matter) | TBD — AAPG | Secondary background for same event. |
 | `2000-batzle.png` | Batzle & Gardner 2000 AAPG Memoir 72 Fig. (Brushy slope Vp histogram) | TBD — AAPG/SEPM | Wired to `batzle-gardner-2000-memoir72-seismic`. |
 | `2007-atlas-deep-water-outcrops.jpeg` | TBD (AAPG Studies in Geology 56 atlas) | TBD — AAPG | Wired to `atlas-deep-water-outcrops-2007-aapg-sg56` (cover-style). |
