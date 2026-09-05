@@ -102,11 +102,15 @@ def image_web_path(filename: str | None) -> str | None:
     return f"images/{name}"
 
 
+def split_images(value: str | None) -> list[str]:
+    """CSV image field may list multiple files separated by ';'."""
+    return split_tags(value)
+
+
 def collect_image_files(events: list[dict]) -> set[str]:
     names = {BANNER_DEST_NAME, BRUSHY_HERO_NAME}
     for ev in events:
-        img = (ev.get("image") or "").strip()
-        if img:
+        for img in split_images(ev.get("image")):
             names.add(Path(img).name)
     names.update(SLIDE_BACKGROUNDS.values())
     return names
@@ -134,16 +138,22 @@ def render_event(ev: dict, branch_labels: dict, formation_labels: dict) -> str:
     people = ", ".join(ev["people_list"])
     data_branches = " ".join(ev["branch_list"])
     data_formations = " ".join(ev["formation_list"]) or "_none_"
-    img_path = image_web_path(ev.get("image"))
-    img_html = ""
-    if img_path:
-        credit = ev.get("image_credit") or ""
-        img_html = (
+    credit = ev.get("image_credit") or ""
+    figures = []
+    image_names = split_images(ev.get("image"))
+    for i, img_name in enumerate(image_names):
+        img_path = image_web_path(img_name)
+        if not img_path:
+            continue
+        # Credit once, under the last figure in a multi-image set.
+        cap = credit if credit and i == len(image_names) - 1 else ""
+        figures.append(
             f'<figure class="event-figure">'
             f'<img src="{esc(img_path)}" alt="" loading="lazy">'
-            f'{f"<figcaption>{esc(credit)}</figcaption>" if credit else ""}'
+            f'{f"<figcaption>{esc(cap)}</figcaption>" if cap else ""}'
             f"</figure>"
         )
+    img_html = "".join(figures)
 
     return f"""
     <article class="event" style="--accent:{color}"
@@ -200,7 +210,9 @@ def event_to_slide(ev: dict, era_labels: dict) -> dict:
     if bg_url:
         slide["background"] = {"url": bg_url, "color": "#1c2420"}
 
-    media_url = image_web_path(ev.get("image"))
+    # TimelineJS media: first CSV image (skip if cover-style-only).
+    media_names = split_images(ev.get("image"))
+    media_url = image_web_path(media_names[0]) if media_names else None
     if media_url and ev["id"] not in COVER_STYLE_ONLY:
         slide["media"] = {
             "url": media_url,

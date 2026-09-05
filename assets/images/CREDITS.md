@@ -6,6 +6,9 @@ Naming: `{year}-{slug}.ext` (optional `-cover`, `-map`, etc.) so files sort by d
 
 | File | Source | License / rights | Notes |
 |---|---|---|---|
+| `1854-bartlett-cover.jpg` | Bartlett 1854 Personal Narrative plate (Guadalupe Mountain, vol. I) | Public domain (1854); scan via Internet Archive | Wired to `bartlett-1854-personal-narrative`. |
+| `1854-bartlett-nov9.png` | Screenshot of Nov. 9 Guadalupe approach excerpt | Public domain text; screenshot by project | Wired to same event. |
+| `1854-bartlett-nov10.png` | Screenshot of Nov. 10 sunrise excerpt | Public domain text; screenshot by project | Wired to same event. |
 | `1948-king-pp215.png` | TBD (likely USGS PP 215 figure / plate) | TBD — confirm USGS public domain vs scan rights | Wired to `king-1948-pp215` (cover-style); Brushy TimelineJS title hero. |
 | `1964-hayes.png` | TBD (likely USGS PP 446 figure) | TBD — confirm USGS public domain vs scan rights | Wired to `hayes-1964-pp446`. |
 | `2010-pyles.png` | TBD (Pyles et al. 2010 JSR figure) | TBD — SEPM/JSR | Wired to `pyles-etal-2010-beacon-channel-jsr`. |
