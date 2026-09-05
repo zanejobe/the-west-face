@@ -27,6 +27,7 @@ BRUSHY_FORMATION = "brushy_canyon"
 SLIDE_BACKGROUNDS = {
     "king-1948-pp215": "1948-king-pp215.png",
     "beaubouef-1999-aapg-cn40": "1999-beaubouef-aapg-cn40-cover.png",
+    "gardner-etal-2003-mpg": "2003-gardner-cover.png",
     "atlas-deep-water-outcrops-2007-aapg-sg56": "2007-atlas-deep-water-outcrops.jpeg",
 }
 # When True, CSV image is only used as background (not TimelineJS side media).
@@ -210,8 +211,10 @@ def event_to_slide(ev: dict, era_labels: dict) -> dict:
     if bg_url:
         slide["background"] = {"url": bg_url, "color": "#1c2420"}
 
-    # TimelineJS media: first CSV image (skip if cover-style-only).
+    # TimelineJS media: first CSV image that is not also the cover background.
     media_names = split_images(ev.get("image"))
+    if bg_name:
+        media_names = [n for n in media_names if Path(n).name != Path(bg_name).name] or media_names
     media_url = image_web_path(media_names[0]) if media_names else None
     if media_url and ev["id"] not in COVER_STYLE_ONLY:
         slide["media"] = {
@@ -272,7 +275,7 @@ def build_brushy_page(n_events: int) -> str:
   <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
   <script>
     window.addEventListener("load", function () {{
-      window.timeline = new TL.Timeline("timeline-embed", "brushy-timeline.json?v=8", {{
+      window.timeline = new TL.Timeline("timeline-embed", "brushy-timeline.json?v=9", {{
         hash_bookmark: true,
         initial_zoom: 1,
         scale_factor: 1,

@@ -22,6 +22,8 @@ Naming: `{year}-{slug}.ext` (optional `-cover`, `-map`, etc.) so files sort by d
 | `1998-sageman.png` | Sageman et al. 1998 Geology Fig. 3 (Rest Area Gully) | TBD — GSA | Wired to `sageman-etal-1998-geology-brushy-org`. |
 | `1999-beaubouef-aapg-cn40-cover.png` | TBD (course-note cover / front matter) | TBD — AAPG | Secondary background for same event. |
 | `2000-batzle.png` | Batzle & Gardner 2000 AAPG Memoir 72 Fig. (Brushy slope Vp histogram) | TBD — AAPG/SEPM | Wired to `batzle-gardner-2000-memoir72-seismic`. |
+| `2003-gardner-cover.png` | Gardner et al. 2003 MPG regional Brushy fan cross-section | TBD — Elsevier/MPG | Wired as TimelineJS background for `gardner-etal-2003-mpg`. |
+| `2003-gardner.png` | Gardner et al. 2003 MPG Upper Buena Vista outcrop figure | TBD — Elsevier/MPG | Wired as media for same event. |
 | `2007-atlas-deep-water-outcrops.jpeg` | TBD (AAPG Studies in Geology 56 atlas) | TBD — AAPG | Wired to `atlas-deep-water-outcrops-2007-aapg-sg56` (cover-style). |
 | `2025-banner-west-face.jpg` | Derived from `originals/2025-11-13-west-face-escarpment.jpeg` | Zane Jobe; all rights reserved unless noted | Front-page hero (~249 KB, 2000×649). |
 | `originals/2025-11-07-guadalupe-outcrop.jpeg` | Zane Jobe (iPhone, 2025-11-07) | All rights reserved unless noted | Full-res (~16 MB). Not wired yet. |

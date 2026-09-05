@@ -345,7 +345,16 @@
         "headline": "Gardner et al. 2003 — process-response model for channels",
         "text": "Marine and Petroleum Geology paper proposing a stratigraphic process-response model for submarine channels and related features from Brushy Canyon outcrops.\n<p><strong>People:</strong> Michael H. Gardner, James M. Borer, Jesse J. Melick, Nicola Mavilla, Marieke Dechesne, Roger N. Wagerle</p>\n<p><em>Gardner, M.H., Borer, J.M., Melick, J.J., Mavilla, N., Dechesne, M., and Wagerle, R.N., 2003, Stratigraphic process-response model for submarine channels and related features from studies of Permian Brushy Canyon outcrops, West Texas: Marine and Petroleum Geology, v. 20, p. 757–787, https://doi.org/10.1016/j.marpetgeo.2003.07.004</em></p>"
       },
-      "group": "Slope and Basin Consortium"
+      "group": "Slope and Basin Consortium",
+      "background": {
+        "url": "images/2003-gardner-cover.png",
+        "color": "#1c2420"
+      },
+      "media": {
+        "url": "images/2003-gardner.png",
+        "credit": "Gardner et al. 2003 MPG — regional fan cross-section and Upper Buena Vista outcrop architecture",
+        "alt": "Gardner et al. 2003 — process-response model for channels"
+      }
     },
     {
       "unique_id": "mines-romans-2003-ms",
