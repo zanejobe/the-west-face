@@ -25,6 +25,7 @@ BRUSHY_HERO_NAME = "1948-king-pp215.png"
 BRUSHY_FORMATION = "brushy_canyon"
 # Full-bleed slide backgrounds (cover-style). Keyed by event id.
 SLIDE_BACKGROUNDS = {
+    "bartlett-1854-personal-narrative": "1854-bartlett-cover.jpg",
     "king-1942-dmg-names": "1942-king-cover.jpg",
     "king-1948-pp215": "1948-king-pp215.png",
     "zelt-rossen-1995-atlas": "1995-zelt-cover.png",
@@ -34,6 +35,7 @@ SLIDE_BACKGROUNDS = {
 }
 # When True, CSV image is only used as background (not TimelineJS side media).
 COVER_STYLE_ONLY = {
+    "bartlett-1854-personal-narrative",
     "king-1942-dmg-names",
     "king-1948-pp215",
     "atlas-deep-water-outcrops-2007-aapg-sg56",
@@ -278,7 +280,7 @@ def build_brushy_page(n_events: int) -> str:
   <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
   <script>
     window.addEventListener("load", function () {{
-      window.timeline = new TL.Timeline("timeline-embed", "brushy-timeline.json?v=9", {{
+      window.timeline = new TL.Timeline("timeline-embed", "brushy-timeline.json?v=10", {{
         hash_bookmark: true,
         initial_zoom: 1,
         scale_factor: 1,

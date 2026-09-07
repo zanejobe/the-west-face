@@ -12,6 +12,22 @@
   },
   "events": [
     {
+      "unique_id": "bartlett-1854-personal-narrative",
+      "start_date": {
+        "year": 1854,
+        "display_date": "1854"
+      },
+      "text": {
+        "headline": "Bartlett — Personal Narrative of Explorations (Guadalupes)",
+        "text": "John Russell Bartlett, U.S.–Mexico Boundary Commissioner (1850–53), publishes his two-volume Personal Narrative. Approaching the western escarpment in November 1850 he describes Guadalupe Mountain as a dark, gloomy-looking range with bold and forbidding sides — among the earliest published eyewitness accounts of the west face; Bartlett Peak is later named for him.\n<p><strong>People:</strong> John Russell Bartlett</p>\n<p><em>Bartlett, J.R., 1854, Personal Narrative of Explorations and Incidents in Texas, New Mexico, California, Sonora, and Chihuahua, Connected with the United States and Mexican Boundary Commission, during the years 1850, &#x27;51, &#x27;52, and &#x27;53: New York, D. Appleton &amp; Company, 2 vols., https://archive.org/details/personalnarrativ01bart</em></p>"
+      },
+      "group": "Early exploration",
+      "background": {
+        "url": "images/1854-bartlett-cover.jpg",
+        "color": "#1c2420"
+      }
+    },
+    {
       "unique_id": "king-1942-dmg-names",
       "start_date": {
         "year": 1942,

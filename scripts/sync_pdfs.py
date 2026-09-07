@@ -85,6 +85,10 @@ EVENT_PDFS: dict[str, tuple[str, str]] = {
         "1998-sageman-brushy-organic-siltstone-hierarchy.pdf",
         "zotero:C8IXX4JT",
     ),
+    "hardage-etal-1998-brushy-3d-seismic": (
+        "1998-hardage-brushy-3d-seismic.pdf",
+        "path:~/Downloads/1507.pdf",
+    ),
     "mines-johnson-1998-ms": (
         "1998-johnson-brushy-outcrop-cabin-lake.pdf",
         "mines:11124/15090",

@@ -6,9 +6,9 @@ Naming: `{year}-{slug}.ext` (optional `-cover`, `-map`, etc.) so files sort by d
 
 | File | Source | License / rights | Notes |
 |---|---|---|---|
-| `1854-bartlett-cover.jpg` | Bartlett 1854 Personal Narrative plate (Guadalupe Mountain, vol. I) | Public domain (1854); scan via Internet Archive | Wired to `bartlett-1854-personal-narrative`. |
-| `1854-bartlett-nov9.png` | Screenshot of Nov. 9 Guadalupe approach excerpt | Public domain text; screenshot by project | Wired to same event. |
-| `1854-bartlett-nov10.png` | Screenshot of Nov. 10 sunrise excerpt | Public domain text; screenshot by project | Wired to same event. |
+| `1854-bartlett-cover.jpg` | Bartlett 1854 Personal Narrative plate (Guadalupe Mountain, vol. I) | Public domain (1854); scan via Internet Archive | Cover-style for `bartlett-1854-personal-narrative` (Brushy + main). |
+| `1854-bartlett-nov9.png` | Screenshot of Nov. 9 Guadalupe approach excerpt | Public domain text; screenshot by project | Kept in assets; not currently wired. |
+| `1854-bartlett-nov10.png` | Screenshot of Nov. 10 sunrise excerpt | Public domain text; screenshot by project | Kept in assets; not currently wired. |
 | `1858-shumard.png` | Shumard 1858 Transactions Academy of Science of St. Louis opening page | Public domain (1858); scan via Missouri Botanical Garden / BHL | Wired to `shumard-1858-permian-fossils`. |
 | `1908-girty-1.png` | Girty 1908 USGS Professional Paper 58 figure | Public domain (USGS) | Wired to `girty-1908-pp58`. |
 | `1908-girty-2.png` | Girty 1908 USGS Professional Paper 58 figure | Public domain (USGS) | Wired to same event. |
