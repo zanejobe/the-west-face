@@ -7,3 +7,7 @@ __pycache__/
 *.pdf
 !docs/**
 .exports-cache/
+
+# Personal PDF library (paywalled / theses). Track README only.
+pdfs/*
+!pdfs/README.md

@@ -22,10 +22,9 @@
         "text": "P. B. King describes the Delaware Mountain Group and its Brushy Canyon, Cherry Canyon, and Bell Canyon Formations (names already credited to him in DeFord and Lloyd, 1940). Formal lithostratigraphic frame for the western escarpment and Delaware Basin fill.\n<p><strong>People:</strong> Philip B. King</p>\n<p><em>King, P.B., 1942, Permian of west Texas and southeastern New Mexico: AAPG Bulletin, v. 26, no. 4, p. 535–763. See also DeFord, R.K., and Lloyd, E.R., 1940, AAPG Bulletin, v. 24, p. 1–14 (names credited to King).</em></p>"
       },
       "group": "USGS mapping era",
-      "media": {
+      "background": {
         "url": "images/1942-king-cover.jpg",
-        "credit": "King 1942 AAPG Bulletin Fig. 14 — west side of Guadalupe Mountains",
-        "alt": "King — Brushy Cherry and Bell Canyon named"
+        "color": "#1c2420"
       }
     },
     {
@@ -158,7 +157,16 @@
         "headline": "Zelt and Rossen — Brushy Canyon in deep-water atlas",
         "text": "Chapter documenting geometry and continuity of Brushy Canyon deep-water sandstones and siltstones along Guadalupe–Delaware Mountains outcrops.\n<p><strong>People:</strong> F. B. Zelt, Christine Rossen</p>\n<p><em>Zelt, F.B., and Rossen, C., 1995, Geometry and continuity of deep-water sandstones and siltstones, Brushy Canyon Formation (Permian) Delaware Mountains, Texas, in Pickering, K.T., and others, eds., Atlas of Deep Water Environments: Springer.</em></p>"
       },
-      "group": "Petroleum and basin research"
+      "group": "Petroleum and basin research",
+      "background": {
+        "url": "images/1995-zelt-cover.png",
+        "color": "#1c2420"
+      },
+      "media": {
+        "url": "images/1995-zelt.png",
+        "credit": "Zelt and Rossen 1995 — Brushy Canyon deep-water atlas figures",
+        "alt": "Zelt and Rossen — Brushy Canyon in deep-water atlas"
+      }
     },
     {
       "unique_id": "gardner-sonnenfeld-1996-pbs-sepm",
@@ -170,7 +178,12 @@
         "headline": "Gardner and Sonnenfeld — Brushy facies architecture",
         "text": "PBS-SEPM / SEPM Permian Basin Section guidebook paper on stratigraphic changes in facies architecture of Brushy Canyon in Guadalupe Mountains National Park.\n<p><strong>People:</strong> Michael H. Gardner, Mark D. Sonnenfeld</p>\n<p><em>Gardner, M.H., and Sonnenfeld, M.D., 1996, Stratigraphic changes in architecture of the Permian Brushy Canyon Formation in Guadalupe Mountains National Park, west Texas, in DeMis, W.D., and Cole, A.G., eds., The Brushy Canyon Play in Outcrop and Subsurface: Concepts and Examples: SEPM, Permian Basin Section, Guidebook, Publication 96-38, p. 17–40.</em></p>"
       },
-      "group": "Slope and Basin Consortium"
+      "group": "Slope and Basin Consortium",
+      "media": {
+        "url": "images/1996-sonnenfeld.png",
+        "credit": "Gardner and Sonnenfeld 1996 PBS-SEPM Brushy facies architecture figure",
+        "alt": "Gardner and Sonnenfeld — Brushy facies architecture"
+      }
     },
     {
       "unique_id": "gardner-1997-beg-ri241-bell-cherry",
@@ -254,7 +267,7 @@
       },
       "media": {
         "url": "images/1999-beaubouef-aapg-cn40.png",
-        "credit": "TBD — Beaubouef et al. 1999 / AAPG",
+        "credit": "Beaubouef et al. 1999 AAPG CN 40 — cover and field-guide figure",
         "alt": "Beaubouef et al. — AAPG Course Note Series 40"
       }
     },
@@ -297,7 +310,12 @@
         "headline": "Carr and Gardner 2000 — lower Brushy basin-floor fan",
         "text": "Chapter in Fine-Grained Turbidite Systems describing architecture of a sandy lower Brushy Canyon basin-floor fan (sheets, distributary channels, cycle stacking).\n<p><strong>People:</strong> Mary M. Carr, Michael H. Gardner</p>\n<p><em>Carr, M.M., and Gardner, M.H., 2000, Portrait of a basin-floor fan for sandy deepwater systems, Permian Lower Brushy Canyon Formation, West Texas, in Bouma, A.H., and Stone, C.G., eds., Fine-grained turbidite systems: AAPG Memoir 72 / SEPM Special Publication 68, p. 215–231, https://doi.org/10.1306/m72703c20</em></p>"
       },
-      "group": "Slope and Basin Consortium"
+      "group": "Slope and Basin Consortium",
+      "media": {
+        "url": "images/2000-carr.png",
+        "credit": "Carr and Gardner 2000 — lower Brushy basin-floor fan figure",
+        "alt": "Carr and Gardner 2000 — lower Brushy basin-floor fan"
+      }
     },
     {
       "unique_id": "gardner-borer-2000-memoir72",
@@ -309,7 +327,12 @@
         "headline": "Gardner and Borer 2000 — slope-to-basin channel architecture",
         "text": "Chapter in Fine-Grained Turbidite Systems comparing Brushy Canyon channel architecture along a slope-to-basin profile (cut–fill–spill hierarchy).\n<p><strong>People:</strong> Michael H. Gardner, James M. Borer</p>\n<p><em>Gardner, M.H., and Borer, J.M., 2000, Submarine channel architecture along a slope to basin profile, Brushy Canyon Formation, West Texas, in Bouma, A.H., and Stone, C.G., eds., Fine-grained turbidite systems: AAPG Memoir 72 / SEPM Special Publication 68, p. 195–214, https://doi.org/10.1306/m72703c19</em></p>"
       },
-      "group": "Slope and Basin Consortium"
+      "group": "Slope and Basin Consortium",
+      "media": {
+        "url": "images/2000-borer-1.png",
+        "credit": "Gardner and Borer 2000 — Brushy Canyon slope-to-basin channel architecture figures",
+        "alt": "Gardner and Borer 2000 — slope-to-basin channel architecture"
+      }
     },
     {
       "unique_id": "mines-wagerle-2001-ms",
@@ -433,6 +456,18 @@
       }
     },
     {
+      "unique_id": "mines-atan-2007-phd",
+      "start_date": {
+        "year": 2007,
+        "display_date": "2007"
+      },
+      "text": {
+        "headline": "Atan Ph.D. (Mines) — multiscale flow simulation in heterogeneous reservoirs",
+        "text": "Colorado School of Mines Ph.D. (Petroleum Engineering) on multiscale/multimesh numerical simulation for two-phase flow in highly heterogeneous reservoirs. Atan also worked Brushy Canyon outcrop-to-model problems at CoRE and co-authored Gardner et al. 2008 deep-water stratigraphic models.\n<p><strong>People:</strong> Safian Atan</p>\n<p><em>Atan, S., 2007, Multiscale Multimesh Numerical Simulation for Two-Phase Flow in Highly Heterogeneous Reservoirs: Ph.D. dissertation, Colorado School of Mines, Golden, Colorado.</em></p>"
+      },
+      "group": "Slope and Basin Consortium"
+    },
+    {
       "unique_id": "mines-hanggoro-2007-ms",
       "start_date": {
         "year": 2007,
@@ -441,6 +476,35 @@
       "text": {
         "headline": "Hanggoro M.S. (Mines) — lower Brushy Canyon slope channels",
         "text": "Colorado School of Mines M.S. thesis on facies and architecture of sandy slope channels, lower Brushy Canyon, Bitterwell Mountains. Advisor: Michael H. Gardner.\n<p><strong>People:</strong> Diah Hanggoro</p>\n<p><em>Hanggoro, D., 2007, Facies and architecture of sandy slope channels, Permian lower Brushy Canyon formation, Bitterwell Mountains, West Texas USA: M.S. thesis, Colorado School of Mines, https://hdl.handle.net/11124/15998</em></p>"
+      },
+      "group": "Slope and Basin Consortium"
+    },
+    {
+      "unique_id": "gardner-etal-2008-gcssepm-strat-models",
+      "start_date": {
+        "year": 2008,
+        "display_date": "2008"
+      },
+      "text": {
+        "headline": "Gardner et al. 2008 — stratigraphic models for deep-water systems (AIGR/BCFS)",
+        "text": "GCSSEPM chapter synthesizing predictive deep-water stratigraphic models from Brushy Canyon / Slope and Basin Consortium work, including allogenic AIGR (Adjustment–Initiation–Growth–Retreat) and autogenic BCFS (Build–Cut–Fill–Spill) frameworks.\n<p><strong>People:</strong> Michael H. Gardner, James M. Borer, Brian W. Romans, Noelia Baptista, Erik K. Kling, Diah Hanggoro, Jesse J. Melick, Roger M. Wagerle, Marieke Dechesne, Mary M. Carr, Robert Amerman, Safian Atan</p>\n<p><em>Gardner, M.H., Borer, J.M., Romans, B.W., Baptista, N., Kling, E.K., Hanggoro, D., Melick, J.J., Wagerle, R.M., Dechesne, M., Carr, M.M., Amerman, R., and Atan, S., 2008, Stratigraphic models for deep-water sedimentary systems, in Schofield, K., Rosen, N.C., Pfeiffer, D., and Johnson, S., eds., Answering the Challenges of Production from Deep-Water Reservoirs: Analogues and Case Histories to Aid a New Generation: GCSSEPM Foundation, 28th Annual Bob F. Perkins Research Conference, p. 77–175, https://doi.org/10.5724/gcs.08.28.0077</em></p>"
+      },
+      "group": "Slope and Basin Consortium",
+      "media": {
+        "url": "images/2008-gardner.png",
+        "credit": "Gardner et al. 2008 GCSSEPM — deep-water stratigraphic models figure",
+        "alt": "Gardner et al. 2008 — stratigraphic models for deep-water systems (AIGR/BCFS)"
+      }
+    },
+    {
+      "unique_id": "mines-amerman-2009-phd",
+      "start_date": {
+        "year": 2009,
+        "display_date": "2009"
+      },
+      "text": {
+        "headline": "Amerman Ph.D. (Mines) — deepwater mass-transport deposits and basin evolution",
+        "text": "Colorado School of Mines Ph.D. on deepwater mass-transport deposits — structure, stratigraphy, and basin-evolution implications — focused on Permian Cutoff MTDs and their control on overlying Brushy Canyon reservoir sand distribution.\n<p><strong>People:</strong> Robert Amerman</p>\n<p><em>Amerman, R., 2009, Deepwater mass-transport deposits: Structure, stratigraphy, and implications for basin evolution: Ph.D. dissertation, Colorado School of Mines, Golden, Colorado. (CoRE alumni listing; Mines repository handle not found online.)</em></p>"
       },
       "group": "Slope and Basin Consortium"
     },
@@ -459,6 +523,23 @@
         "url": "images/2010-pyles.png",
         "credit": "TBD — Pyles et al. 2010 JSR figure",
         "alt": "Pyles et al. 2010 — Beacon Channel Complex 3D outcrop"
+      }
+    },
+    {
+      "unique_id": "amerman-etal-2011-sepm-cutoff-mtd",
+      "start_date": {
+        "year": 2011,
+        "display_date": "2011"
+      },
+      "text": {
+        "headline": "Amerman et al. 2011 — Cutoff mass-transport deposits and Brushy reservoir control",
+        "text": "SEPM Special Publication 96 chapter on submarine mass-transport deposits in the Permian Cutoff Formation (Williams Ranch Member) of the Guadalupe and Delaware Mountains, documenting how MTD paleotopography controlled overlying Brushy Canyon sandstone fairways and pinchouts.\n<p><strong>People:</strong> Robert Amerman, Eric P. Nelson, Michael H. Gardner, Bruce D. Trudgill</p>\n<p><em>Amerman, R., Nelson, E.P., Gardner, M.H., and Trudgill, B.D., 2011, Submarine mass-transport deposits of the Permian Cutoff Formation, West Texas, U.S.A.: Internal architecture and controls on overlying reservoir sand deposition, in Shipp, R.C., Weimer, P., and Posamentier, H.W., eds., Mass-transport deposits in deepwater settings: SEPM Special Publication 96, p. 235–267, https://doi.org/10.2110/sepmsp.096.235</em></p>"
+      },
+      "group": "Slope and Basin Consortium",
+      "media": {
+        "url": "images/2011-amerman.png",
+        "credit": "Amerman et al. 2011 SEPM SP 96 — Cutoff MTD / Brushy Canyon control figure",
+        "alt": "Amerman et al. 2011 — Cutoff mass-transport deposits and Brushy reservoir control"
       }
     },
     {

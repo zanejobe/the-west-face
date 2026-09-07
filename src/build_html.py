@@ -25,13 +25,16 @@ BRUSHY_HERO_NAME = "1948-king-pp215.png"
 BRUSHY_FORMATION = "brushy_canyon"
 # Full-bleed slide backgrounds (cover-style). Keyed by event id.
 SLIDE_BACKGROUNDS = {
+    "king-1942-dmg-names": "1942-king-cover.jpg",
     "king-1948-pp215": "1948-king-pp215.png",
+    "zelt-rossen-1995-atlas": "1995-zelt-cover.png",
     "beaubouef-1999-aapg-cn40": "1999-beaubouef-aapg-cn40-cover.png",
     "gardner-etal-2003-mpg": "2003-gardner-cover.png",
     "atlas-deep-water-outcrops-2007-aapg-sg56": "2007-atlas-deep-water-outcrops.jpeg",
 }
 # When True, CSV image is only used as background (not TimelineJS side media).
 COVER_STYLE_ONLY = {
+    "king-1942-dmg-names",
     "king-1948-pp215",
     "atlas-deep-water-outcrops-2007-aapg-sg56",
 }

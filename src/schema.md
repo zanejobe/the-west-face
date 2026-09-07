@@ -22,6 +22,7 @@ Multi-select tags use **semicolon-separated** ids (no spaces around `;` preferre
 | `importance` | yes | `1` full only; `2` web; `3` poster + PPT highlight |
 | `image` | no | Filename under `assets/images/` (`{year}-{slug}.ext`) |
 | `image_credit` | no | Credit / rights string |
+| `has_pdf` | no | `yes` / `no` — local file present under `pdfs/` (gitignored; see `scripts/sync_pdfs.py`) |
 
 ## Eras vs branches vs formations
 
