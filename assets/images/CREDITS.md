@@ -15,6 +15,7 @@ Naming: `{year}-{slug}.ext` (optional `-cover`, `-map`, etc.) so files sort by d
 | `1942-king-cover.jpg` | King 1942 AAPG Bulletin Fig. 14 (west-face panorama/section) | TBD — AAPG | Wired to `king-1942-dmg-names`. |
 | `1948-king-pp215.png` | TBD (likely USGS PP 215 figure / plate) | TBD — confirm USGS public domain vs scan rights | Wired to `king-1948-pp215` (cover-style); Brushy TimelineJS title hero. |
 | `1964-hayes.png` | TBD (likely USGS PP 446 figure) | TBD — confirm USGS public domain vs scan rights | Wired to `hayes-1964-pp446`. |
+| `1969-silver.png` | Silver & Todd 1969 AAPG Bulletin Fig. 12 (Guadalupian shelf-to-basin) | TBD — AAPG | Wired to `silver-todd-1969-permian-cyclic`. |
 | `2011-amerman.png` | Amerman et al. 2011 SEPM SP 96 Cutoff MTD figure | TBD — SEPM | Wired to `amerman-etal-2011-sepm-cutoff-mtd`. |
 | `2010-pyles.png` | TBD (Pyles et al. 2010 JSR figure) | TBD — SEPM/JSR | Wired to `pyles-etal-2010-beacon-channel-jsr`. |
 | `1974-harms-brushy-density.png` | TBD (Harms 1974 figure) | TBD — fair use / publisher rights | Wired to `harms-1974-brushy-density`. |

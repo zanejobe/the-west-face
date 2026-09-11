@@ -48,6 +48,10 @@ EVENT_PDFS: dict[str, tuple[str, str]] = {
         "1964-hayes-geology-guadalupe-mountains-nm.pdf",
         "url:https://pubs.usgs.gov/pp/0446/report.pdf",
     ),
+    "silver-todd-1969-permian-cyclic": (
+        "1969-silver-todd-permian-cyclic-strata.pdf",
+        "path:~/Downloads/aapg_1969_0053_0011_2223.pdf",
+    ),
     "harms-1974-brushy-density": (
         "1974-harms-brushy-canyon-density-current.pdf",
         "zotero:SFD5AE23",

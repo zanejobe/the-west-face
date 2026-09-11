@@ -77,6 +77,23 @@
       }
     },
     {
+      "unique_id": "silver-todd-1969-permian-cyclic",
+      "start_date": {
+        "year": 1969,
+        "display_date": "1969"
+      },
+      "text": {
+        "headline": "Silver and Todd — Permian cyclic strata shelf-to-basin model",
+        "text": "AAPG Bulletin synthesis of Wolfcampian–Guadalupian cyclic lithofacies across the northern Midland and Delaware basins (shelf evaporite–carbonate, shelf detritus, shelf-margin carbonate, basin carbonate, basin detritus), proposing a sea-level–driven sedimentary model that links Capitan reef / Guadalupe shelf margin to coeval Delaware Mountain Group basin fill.\n<p><strong>People:</strong> Burr A. Silver, Robert G. Todd</p>\n<p><em>Silver, B.A., and Todd, R.G., 1969, Permian cyclic strata, northern Midland and Delaware basins, west Texas and southeastern New Mexico: AAPG Bulletin, v. 53, no. 11, p. 2223–2251, https://doi.org/10.1306/5D25C97B-16C1-11D7-8645000102C1865D</em></p>"
+      },
+      "group": "Mid-century frameworks",
+      "media": {
+        "url": "images/1969-silver.png",
+        "credit": "Silver and Todd 1969 AAPG Bulletin Fig. 12 — Guadalupian shelf-to-basin cross-section (Eddy–Lea Counties)",
+        "alt": "Silver and Todd — Permian cyclic strata shelf-to-basin model"
+      }
+    },
+    {
       "unique_id": "harms-1974-brushy-density",
       "start_date": {
         "year": 1974,
